@@ -562,7 +562,211 @@ if (!class_exists('Agency_Ecommerce_About')) :
                         )
                     ),
 
+                ),
+                array(
+                    'title' => esc_html__('Typography option', 'agency-ecommerce'),
+                    'content' => array(
+
+                        array(
+                            'text' => 'dashicons-no',
+                            'type' => 'icon'
+                        ),
+                        array(
+                            'text' => 'dashicons-yes',
+                            'type' => 'icon'
+                        )
+                    ),
+
+                ),
+                array(
+                    'title' => esc_html__('Banner Widget', 'agency-ecommerce'),
+                    'content' => array(
+
+                        array(
+                            'text' => 'dashicons-no',
+                            'type' => 'icon'
+                        ),
+                        array(
+                            'text' => 'dashicons-yes',
+                            'type' => 'icon'
+                        )
+                    ),
+
                 ), array(
+                    'title' => esc_html__('Brands Widget', 'agency-ecommerce'),
+                    'content' => array(
+
+                        array(
+                            'text' => 'dashicons-no',
+                            'type' => 'icon'
+                        ),
+                        array(
+                            'text' => 'dashicons-yes',
+                            'type' => 'icon'
+                        )
+                    ),
+
+                ),
+                array(
+                    'title' => esc_html__('Product Block Widget', 'agency-ecommerce'),
+                    'content' => array(
+
+                        array(
+                            'text' => 'dashicons-no',
+                            'type' => 'icon'
+                        ),
+                        array(
+                            'text' => 'dashicons-yes',
+                            'type' => 'icon'
+                        )
+                    ),
+
+                ), array(
+                    'title' => esc_html__('Product Grid Widget', 'agency-ecommerce'),
+                    'content' => array(
+
+                        array(
+                            'text' => 'dashicons-no',
+                            'type' => 'icon'
+                        ),
+                        array(
+                            'text' => 'dashicons-yes',
+                            'type' => 'icon'
+                        )
+                    ),
+
+                ), array(
+                    'title' => esc_html__('Show/Hide Footer Credit', 'agency-ecommerce'),
+                    'content' => array(
+
+                        array(
+                            'text' => 'dashicons-no',
+                            'type' => 'icon'
+                        ),
+                        array(
+                            'text' => 'dashicons-yes',
+                            'type' => 'icon'
+                        )
+                    ),
+
+                ),
+                array(
+                    'title' => esc_html__('Advanced Theme Hooks', 'agency-ecommerce'),
+                    'content' => array(
+
+                        array(
+                            'text' => 'dashicons-no',
+                            'type' => 'icon'
+                        ),
+                        array(
+                            'text' => 'dashicons-yes',
+                            'type' => 'icon'
+                        )
+                    ),
+
+                ),
+                array(
+                    'title' => esc_html__('Flexible Container & Sidebar Width', 'agency-ecommerce'),
+                    'content' => array(
+
+                        array(
+                            'text' => 'dashicons-no',
+                            'type' => 'icon'
+                        ),
+                        array(
+                            'text' => 'dashicons-yes',
+                            'type' => 'icon'
+                        )
+                    ),
+
+                ), array(
+                    'title' => esc_html__('Header color customization', 'agency-ecommerce'),
+                    'content' => array(
+
+                        array(
+                            'text' => 'dashicons-no',
+                            'type' => 'icon'
+                        ),
+                        array(
+                            'text' => 'dashicons-yes',
+                            'type' => 'icon'
+                        )
+                    ),
+
+                ), array(
+                    'title' => esc_html__('Header color customization', 'agency-ecommerce'),
+                    'content' => array(
+
+                        array(
+                            'text' => 'dashicons-no',
+                            'type' => 'icon'
+                        ),
+                        array(
+                            'text' => 'dashicons-yes',
+                            'type' => 'icon'
+                        )
+                    ),
+
+                ), array(
+                    'title' => esc_html__('Homepage Widge Title Layout', 'agency-ecommerce'),
+                    'content' => array(
+
+                        array(
+                            'text' => 'dashicons-no',
+                            'type' => 'icon'
+                        ),
+                        array(
+                            'text' => 'dashicons-yes',
+                            'type' => 'icon'
+                        )
+                    ),
+
+                ), array(
+                    'title' => esc_html__('Premium Support', 'agency-ecommerce'),
+                    'content' => array(
+
+                        array(
+                            'text' => 'dashicons-no',
+                            'type' => 'icon'
+                        ),
+                        array(
+                            'text' => 'dashicons-yes',
+                            'type' => 'icon'
+                        )
+                    ),
+
+                ),
+                array(
+                    'title' => esc_html__('Box/Full width option', 'agency-ecommerce'),
+                    'content' => array(
+
+                        array(
+                            'text' => 'dashicons-no',
+                            'type' => 'icon'
+                        ),
+                        array(
+                            'text' => 'dashicons-yes',
+                            'type' => 'icon'
+                        )
+                    ),
+
+                ),
+                array(
+                    'title' => esc_html__('On Demand Feature', 'agency-ecommerce'),
+                    'content' => array(
+
+                        array(
+                            'text' => 'dashicons-no',
+                            'type' => 'icon'
+                        ),
+                        array(
+                            'text' => 'dashicons-yes',
+                            'type' => 'icon'
+                        )
+                    ),
+
+                ),
+                array(
                     'title' => esc_html__('Primary color option', 'agency-ecommerce'),
                     'content' => array(
 
@@ -578,11 +782,152 @@ if (!class_exists('Agency_Ecommerce_About')) :
 
                 ),
                 array(
-                    'title' => esc_html__('Typography option', 'agency-ecommerce'),
+                    'title' => esc_html__('Enable/Disable Header', 'agency-ecommerce'),
                     'content' => array(
 
                         array(
-                            'text' => 'dashicons-no',
+                            'text' => 'dashicons-yes',
+                            'type' => 'icon'
+                        ),
+                        array(
+                            'text' => 'dashicons-yes',
+                            'type' => 'icon'
+                        )
+                    ),
+
+                ),
+                array(
+                    'title' => esc_html__('Advanced Breadcrumb', 'agency-ecommerce'),
+                    'content' => array(
+
+                        array(
+                            'text' => 'dashicons-yes',
+                            'type' => 'icon'
+                        ),
+                        array(
+                            'text' => 'dashicons-yes',
+                            'type' => 'icon'
+                        )
+                    ),
+
+                ), array(
+                    'title' => esc_html__('Checkout/Cart Options', 'agency-ecommerce'),
+                    'content' => array(
+
+                        array(
+                            'text' => 'dashicons-yes',
+                            'type' => 'icon'
+                        ),
+                        array(
+                            'text' => 'dashicons-yes',
+                            'type' => 'icon'
+                        )
+                    ),
+
+                ), array(
+                    'title' => esc_html__('Accessibility Ready', 'agency-ecommerce'),
+                    'content' => array(
+
+                        array(
+                            'text' => 'dashicons-yes',
+                            'type' => 'icon'
+                        ),
+                        array(
+                            'text' => 'dashicons-yes',
+                            'type' => 'icon'
+                        )
+                    ),
+
+                ), array(
+                    'title' => esc_html__(' Sticky add to cart', 'agency-ecommerce'),
+                    'content' => array(
+
+                        array(
+                            'text' => 'dashicons-yes',
+                            'type' => 'icon'
+                        ),
+                        array(
+                            'text' => 'dashicons-yes',
+                            'type' => 'icon'
+                        )
+                    ),
+
+                ), array(
+                    'title' => esc_html__('Advance Post Widget', 'agency-ecommerce'),
+                    'content' => array(
+
+                        array(
+                            'text' => 'dashicons-yes',
+                            'type' => 'icon'
+                        ),
+                        array(
+                            'text' => 'dashicons-yes',
+                            'type' => 'icon'
+                        )
+                    ),
+
+                ), array(
+                    'title' => esc_html__('Advertisement Widget', 'agency-ecommerce'),
+                    'content' => array(
+
+                        array(
+                            'text' => 'dashicons-yes',
+                            'type' => 'icon'
+                        ),
+                        array(
+                            'text' => 'dashicons-yes',
+                            'type' => 'icon'
+                        )
+                    ),
+
+                ), array(
+                    'title' => esc_html__('Call to Action Widget', 'agency-ecommerce'),
+                    'content' => array(
+
+                        array(
+                            'text' => 'dashicons-yes',
+                            'type' => 'icon'
+                        ),
+                        array(
+                            'text' => 'dashicons-yes',
+                            'type' => 'icon'
+                        )
+                    ),
+
+                ), array(
+                    'title' => esc_html__('Contact Widget', 'agency-ecommerce'),
+                    'content' => array(
+
+                        array(
+                            'text' => 'dashicons-yes',
+                            'type' => 'icon'
+                        ),
+                        array(
+                            'text' => 'dashicons-yes',
+                            'type' => 'icon'
+                        )
+                    ),
+
+                ), array(
+                    'title' => esc_html__('Features Widget', 'agency-ecommerce'),
+                    'content' => array(
+
+                        array(
+                            'text' => 'dashicons-yes',
+                            'type' => 'icon'
+                        ),
+                        array(
+                            'text' => 'dashicons-yes',
+                            'type' => 'icon'
+                        )
+                    ),
+
+                ), array(
+                    'title' => esc_html__('Newsletter Widget', 'agency-ecommerce'),
+                    'content' => array(
+
+                        array(
+                            'text' => 'dashicons-yes',
                             'type' => 'icon'
                         ),
                         array(
