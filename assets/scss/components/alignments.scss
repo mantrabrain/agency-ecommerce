@@ -1,0 +1,38 @@
+.alignleft, .wp-block-image.is-resized.alignleft {
+  /*display: inline;*/
+  float: left;
+  margin-right: 20px;
+}
+
+.alignright, .wp-block-image.is-resized.alignright {
+  /*display: inline;*/
+  float: right;
+  margin-left: 20px;
+}
+
+.aligncenter {
+
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center;
+  margin-bottom: 15px;
+}
+
+.alignnone {
+  clear: both;
+  /*display: inline-block;*/
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.alignwide, .alignfull {
+  margin-left: auto;
+  margin-right: auto;
+  clear: both;
+  width: 100%;
+  max-width: 100%;
+}

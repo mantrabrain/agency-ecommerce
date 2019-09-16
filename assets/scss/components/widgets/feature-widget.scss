@@ -1,0 +1,40 @@
+.widget.agency_ecommerce_widget_features {
+  .features-list {
+    display: inline-block;
+    width: 100%;
+  }
+}
+
+.feature-slider-widget-area .feature-item,
+.homepage-widgets .feature-item,
+.homepage-fullwidth-widget-area .feature-item {
+  float: left;
+  width: 33.33%;
+}
+
+.widget.agency_ecommerce_widget_features .feature-icon {
+  background: $primary_color;
+  /* padding: 12px; */
+  border-radius: 100%;
+  border: 1px solid #dedede;
+  display: inline-block;
+  float: left;
+  /* margin-right: 5px; */
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  color: $white_color;
+  line-height: 50px;
+  text-align: center;
+  margin: 0;
+}
+
+.widget.agency_ecommerce_widget_features .feature-text-wrap {
+  display: inline-block;
+  margin-left: 70px;
+  color: #2d2d2d;
+  h4 {
+    margin: 0;
+    font-size: 16px;
+  }
+}

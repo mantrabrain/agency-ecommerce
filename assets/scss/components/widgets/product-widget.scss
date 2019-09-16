@@ -1,0 +1,35 @@
+.widget.agency_ecommerce_woo_products_widget {
+  ul.ae-product-cat-tab {
+    display: inline-block;
+    float: right;
+    padding-right: 3px;
+    li {
+      float: left;
+      background: $white_color;
+      padding: 0 10px;
+      margin: 1px;
+      text-align: center;
+      display: block;
+      cursor: pointer;
+      border: 1px solid #ddd;
+      &.ae-active, &:hover {
+        background: #ddd;
+      }
+    }
+  }
+
+}
+
+.homepage-widgets, .homepage-fullwidth-widget-area{
+  .ae-woo-product-wrapper .ae-list-items.carousel-mode:not(.slick-initialized) .product {
+    float: left;
+    width: 25%;
+    display: none;
+  }
+  .ae-woo-product-wrapper .ae-list-items.carousel-mode:not(.slick-initialized) .product:nth-child(1),
+  .ae-woo-product-wrapper .ae-list-items.carousel-mode:not(.slick-initialized) .product:nth-child(2),
+  .ae-woo-product-wrapper .ae-list-items.carousel-mode:not(.slick-initialized) .product:nth-child(3),
+  .ae-woo-product-wrapper .ae-list-items.carousel-mode:not(.slick-initialized) .product:nth-child(4) {
+    display: block;
+  }
+}

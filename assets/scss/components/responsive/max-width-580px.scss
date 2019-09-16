@@ -1,0 +1,9 @@
+@media(max-width: 580px) {
+  .mid-header .ae-search-holder .search-box .product-search-wrapper form input[type="text"] {
+    width: 65%;
+  }
+  .search-box .product-search-wrapper form select {
+    width: 35%;
+    border-top: 0;
+  }
+}

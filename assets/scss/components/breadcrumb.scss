@@ -1,0 +1,98 @@
+#breadcrumb {
+  width: 100%;
+  /* background: $primary_color; */
+  padding: 15px 0px;
+  /* color: $white_color; */
+
+  .container > div {
+    overflow: hidden;
+  }
+  padding-bottom: 0;
+  &.ae-breadcrumb-advanced {
+    display: table;
+    height: 300px;
+    table-layout: fixed;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-position: center center !important;
+    background-size: cover;
+    margin-bottom: 10px;
+    .breadcrumb-content {
+      width: 100%;
+      height: 100%;
+      padding: 0;
+      display: table-cell;
+      vertical-align: middle;
+      .breadcrumb-trail {
+        text-align: center;
+        background: none;
+        margin-top: 0;
+        li {
+          a {
+            color: #fff;
+            opacity: 0.8;
+            &:hover {
+              color: $primary_color;
+              opacity: 1;
+            }
+          }
+          span {
+            color: #fff;
+          }
+          &:after {
+            color: #fff;
+          }
+        }
+      }
+      .trail-items {
+        display: inline-block;
+        text-align: center
+      }
+      h1.heading-title.page-title.entry-title {
+        font-size: 36px;
+        line-height: 42px;
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase;
+        border: 0;
+        margin: 0;
+        padding: 0;
+        font-weight: bold;
+        &:before, &:after {
+          content: unset;
+        }
+      }
+    }
+  }
+}
+
+.breadcrumb-trail {
+  background: #f8f8f8 none repeat scroll 0 0;
+  margin: 20px 0 30px;
+  padding: 10px 20px;
+  li {
+    display: block;
+    float: left;
+    list-style: outside none none;
+    padding-right: 10px;
+    &.trail-item.trail-end::after {
+      display: none;
+    }
+    &::after {
+      content: "/";
+      margin-left: 10px;
+      color: #777;
+    }
+    a {
+      color: #aaa5a5;
+      &:hover {
+        color: $primary_color;
+      }
+    }
+  }
+  .trail-items {
+    margin: 0;
+    padding: 0;
+  }
+}

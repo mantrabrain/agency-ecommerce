@@ -1,0 +1,22 @@
+@media (max-width: 768px) {
+  // Feature slider
+
+  .feature-slider-wrap {
+    .main-slider-wrap {
+      width: 100%;
+      max-width: 100%;
+      float: none;
+      .slide-item {
+      }
+    }
+    .slider-section-right {
+      margin-top: 10px;
+      width: 100%;
+      max-width: 100%;
+      float: none;
+      .slide-item {
+
+      }
+    }
+  }
+}

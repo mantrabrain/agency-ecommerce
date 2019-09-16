@@ -1,0 +1,122 @@
+.advertisement-widget {
+  width: 100%;
+  .advertisement-wrap {
+    width: 100%;
+    .advertisement-content {
+      float: left;
+      width: 100%;
+      h2, h3, p {
+        float: left;
+        width: 100%;
+      }
+    }
+  }
+}
+
+.widget.agency_ecommerce_widget_advertisement {
+  padding-top: 0;
+}
+
+.advertisement-content-holder .advertisement-thumb-block {
+  float: left;
+  margin-right: 2%;
+  width: 32%;
+  position: relative;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.advertisement-content-holder .advertisement-thumb-block figure.thumb-img {
+  margin: 0;
+  overflow: hidden;
+  img {
+    transition: all 0.3s ease;
+    width: 100%;
+  }
+}
+
+.advertisement-content-holder .advertisement-thumb-block .thumb-hover {
+  background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.advertisement-content-holder .advertisement-thumb-block img {
+  display: block;
+  transform: scale(1) rotate(0deg);
+  transition: all 0.3s ease;
+}
+
+.advertisement-content-holder .advertisement-thumb-block .thumb-hover:after {
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  content: "";
+  height: 90%;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 93%;
+}
+
+.advertisement-content-holder .advertisement-thumb-block .thumb-title-wrapper {
+  bottom: 30px;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+.advertisement-content-holder .advertisement-thumb-block .thumb-title {
+
+  color: $white_color;
+  font-size: 20px;
+  font-weight: 700;
+  display: block;
+  text-transform: uppercase;
+}
+
+.advertisement-thumb-block:hover {
+  .thumb-img img {
+    transform: scale(1.1) rotate(-2deg);
+  }
+  .thumb-title-wrapper {
+    bottom: 40px;
+  }
+}
+
+.widget-area.sidebar {
+  .advertisement-thumb-block {
+    width: 100%;
+    float: none;
+    margin-bottom: 10px;
+  }
+}
+
+#footer-widgets {
+  .widget-column {
+    .advertisement-thumb-block {
+      width: 100%;
+      float: none;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+@media (max-width: 666px) {
+  .advertisement-text-wrap {
+    display: inline-block;
+
+    .advertisement-thumb-block {
+      width: 100%;
+      float: none;
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+
+  }
+}

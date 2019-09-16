@@ -1,0 +1,51 @@
+.woocommerce {
+  &.woocommerce-wishlist {
+    .button.yith-wcqv-button {
+      font-size: 13px;
+      display: inline-block;
+      padding: 8px 10px;
+    }
+    .product-add-to-cart .add_to_cart.button {
+      font-size: 13px;
+      background: $primary_color;
+      border: none;
+      padding: 8px 10px;
+    }
+    dfn, cite, em, i {
+      font-style: normal;
+    }
+    .product-price {
+      span {
+        color: $primary_color;
+      }
+      del {
+        span {
+          color: #9d9d9d;
+          margin-right: 5px;
+        }
+      }
+      ins {
+        background: none;
+        span {
+          color: $primary_color;
+        }
+      }
+    }
+    .shop_table.wishlist_table {
+      thead tr {
+        background: $primary_color;
+        color: #fff;
+        text-transform: uppercase;
+        span {
+          color: #fff;
+          font-size: 15px;
+        }
+      }
+      .add_to_cart_button {
+        padding: 8px 10px;
+        background: $primary_color;
+      }
+
+    }
+  }
+}

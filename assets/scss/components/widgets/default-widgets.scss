@@ -1,0 +1,107 @@
+.widget.woocommerce.widget_products, .widget.woocommerce.widget_recently_viewed_products {
+
+  .product_list_widget {
+    del span {
+      color: #9d9d9d;
+      margin-right: 5px;
+    }
+    ins {
+      background: none;
+      span {
+        color: $primary_color;
+        background: none;
+      }
+    }
+    .product-title {
+      font-weight: 600;
+    }
+    li {
+      list-style: none;
+      padding: 5px 0;
+      &:before {
+        content: none;
+      }
+    }
+    a {
+      color: #515151;
+      &:hover {
+        color: $primary_color;
+      }
+    }
+  }
+}
+
+// Recent Post Widgets
+.widget_recent_entries {
+  ul {
+    li {
+      a {
+        &:before {
+          content: "\f101";
+          font-family: FontAwesome;
+          margin-right: 5px;
+        }
+        &:hover {
+          color: $secondary_color;
+        }
+      }
+    }
+  }
+}
+.widget_tag_cloud .tagcloud a {
+  font-size: 14px !important;
+  border: 1px solid #bababa;
+  padding: 5px 10px;
+  display: inline-block;
+  margin-bottom: 5px;
+  line-height: 22px;
+  &::before{
+    content: "\f02c";
+    font-family: FontAwesome;
+    margin-right: 5px;
+  }
+}
+.widget_archive a::before,
+.widget_categories a::before,
+.widget_meta a::before,
+.widget_nav_menu li a:before,
+.widget_pages li a:before,
+.widget_recent_comments li::before,
+.widget_recent_entries a::before,
+.widget_rss li:before,
+.widget_product_categories li a::before
+{
+  content: "\f187";
+  font-family: FontAwesome;
+  margin-right: 5px;
+  -webkit-transition: color .3s ease;
+  -moz-transition: color .3s ease;
+  -ms-transition: color .3s ease;
+  -o-transition: color .3s ease;
+  transition: color .3s ease;
+}
+
+.widget_categories a::before {
+  content: "\f07b";
+}
+
+.widget_meta a::before,
+.widget_nav_menu li a:before {
+  content: "\f105";
+}
+
+.widget_pages li a:before {
+  content: "\f1ea";
+}
+
+.widget_recent_comments li::before {
+  content: "\f086";
+}
+
+.widget_rss li::before {
+  content: "\f09e";
+}
+
+.widget_product_categories li a::before{
+  content: "\f290";
+}

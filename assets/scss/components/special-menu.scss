@@ -1,0 +1,188 @@
+.ae-enable-special-menu {
+
+}
+
+.special-sub-menu {
+  width: 225px;
+}
+
+.special-menu-container {
+  float: left;
+
+  ul {
+    &.special-menu-wrapper {
+      margin: 0;
+      padding: 0;
+      a.special-menu {
+        z-index: 999;
+        display: block;
+        font-weight: 700;
+        letter-spacing: 1px;
+        line-height: normal;
+        padding: 25px 15px;
+        position: relative;
+        text-transform: uppercase;
+        background: $primary_color;
+        color: $white_color;
+        width: 225px;
+        .toggle {
+          line-height: normal;
+          padding-right: 15px;
+        }
+        &:hover {
+          background: $secondary_color;
+        }
+      }
+      ul {
+        transition: all 0.3s linear;
+        -webkit-transition: all 0.3s linear;
+        &.special-sub-menu {
+          z-index: 999;
+          max-height: 433px;
+          overflow: hidden;
+          opacity: 0;
+          left: -9999999px;
+          position: absolute;
+          margin-left: 0;
+          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+          overflow-y: scroll;
+
+          &::-webkit-scrollbar-track {
+            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+            background-color: #F5F5F5;
+            border-radius: 5px;
+          }
+
+          &::-webkit-scrollbar {
+            width: 5px;
+            background-color: #F5F5F5;
+          }
+
+          &::-webkit-scrollbar-thumb {
+            border-radius: 5px;
+            background: $primary_color;
+            background-image: -webkit-gradient(linear,
+                    left bottom,
+                    left top,
+                    color-stop(0.0, lighten($primary_color, 10)),
+                    color-stop(0.50, $primary_color),
+                    color-stop(1, darken($primary_color, 20)));
+          }
+
+          li {
+            display: block;
+            letter-spacing: 1px;
+            line-height: normal;
+
+            position: relative;
+            text-transform: uppercase;
+            background: $white_color;
+            border-bottom: 1px solid #dedede;
+            font-size: 15px;
+            font-weight: 700;
+            text-transform: uppercase;
+            width: 100%;
+            padding: 3px;
+            a {
+
+              padding: 15px 15px;
+              display: inline-block;
+              color: $secondary_color;
+              font-family: Open Sans;
+              font-size: 14px;
+              font-weight: 600;
+              line-height: 18px;
+              letter-spacing: -.3px;
+            }
+
+            &:hover {
+              background: $primary_color;
+              a {
+                color: $white_color;
+              }
+              &.fa {
+                color: $white_color;
+              }
+            }
+            &.fa {
+              &:before {
+
+                position: relative;
+                top: 1px;
+                display: inline-block;
+                margin-right: 12px;
+                font-weight: normal;
+              }
+            }
+          }
+          a {
+            width: 100%;
+          }
+        }
+      }
+      li {
+        list-style: none;
+        &.menu-item-has-children {
+          & > .angle-down {
+            color: $white_color;
+            z-index: 1;
+          }
+          .angle-down, .angle-up {
+            z-index: 9999;
+            position: relative;
+            float: right;
+            height: auto;
+            line-height: 68px;
+            top: 0;
+            width: 25px;
+            text-align: center;
+            font-size: 20px;
+            cursor: pointer;
+            right: 10px;
+          }
+          & > ul {
+            & > li {
+              .angle-down {
+                line-height: 40px;
+              }
+            }
+          }
+          &:hover ul,
+          a.special-menu:focus ~ ul,
+          &.focus ul {
+
+            left: auto;
+            display: block;
+            opacity: 1;
+            top: 100%;
+            animation: fade 0.5s;
+          }
+
+        }
+      }
+    }
+  }
+}
+
+.home.page-template-home-template {
+
+  .special-menu-container {
+
+    &:not( .onhover ) {
+      .special-sub-menu {
+        opacity: 1;
+        left: unset;
+      }
+    }
+  }
+}
+
+@media (min-width: 1051px) {
+  .site-header {
+    &.right-special-menu {
+      .special-menu-container {
+        float: right;
+      }
+    }
+  }
+}

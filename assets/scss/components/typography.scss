@@ -1,0 +1,97 @@
+button, input, select, textarea {
+  color: #404040;
+  font-size: 15px;
+  line-height: 1.88em;
+}
+
+body {
+  background-color: $white_color;
+  color: #707070;
+  font-size: 15px;
+  line-height: 1.7em;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0 0 15px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #515151;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5, h6 {
+  font-size: 15px;
+}
+
+dfn, cite, em, i {
+  font-style: italic;
+}
+
+blockquote {
+  margin: 0 1.5em;
+}
+
+address {
+  margin: 0 0 1.5em;
+}
+
+pre {
+  background: #eee;
+  font-family: "Courier 10 Pitch", Courier, monospace;
+  font-size: 15px;
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  margin-bottom: 1.6em;
+  max-width: 100%;
+  overflow: auto;
+  padding: 1.6em;
+}
+
+code, kbd, tt, var {
+  font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+  font-size: 15px;
+  font-size: 0.9375rem;
+}
+
+code {
+  padding: 2px 4px;
+  font-family: monospace, monospace;
+  font-size: 1em;
+  background-color: #fbfbfb;
+  border-radius: 4px;
+  border: 1px solid #eee;
+}
+
+abbr, acronym {
+  border-bottom: 1px dotted #666;
+  cursor: help;
+}
+
+mark, ins {
+  background: #fff9c0;
+  text-decoration: none;
+}
+
+big {
+  font-size: 125%;
+}

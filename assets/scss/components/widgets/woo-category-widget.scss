@@ -1,0 +1,32 @@
+.ae-advance-categories-wrapper {
+  a.button {
+    margin: 10px 0;
+    font-weight: 600;
+    font-size: 13px;
+    padding:10px;
+    &:before {
+      display: block;
+      width: 15px;
+      height: 10px;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      float: left;
+      margin-right: 5px;
+      font-family: FontAwesome;
+      content: "\f0c1";
+      font-weight: normal;
+    }
+  }
+  ul.ae-list-items:not(.slick-initialized) li.product {
+    display: none;
+    &:nth-child(1), &:nth-child(2), &:nth-child(3), &:nth-child(4) {
+      display: block;
+      width: 25%;
+      float: left;
+    }
+  }
+  .slick-initialized.ae-list-items {
+    visibility: visible;
+  }
+}

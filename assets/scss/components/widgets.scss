@@ -1,0 +1,104 @@
+.widget {
+  margin: 5px 0 5px 0;
+
+  select {
+    max-width: 100%;
+  }
+}
+
+/* Make sure select elements fit in widgets. */
+
+.section-title {
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 24px;
+  .seperator {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 24px;
+    margin-bottom: 5px;
+    display: none;
+    span {
+      display: inline-block;
+      position: relative;
+      &:before, &:after {
+        background-color: #ddd;
+        content: "";
+        height: 1px;
+        position: absolute;
+        top: 50%;
+        width: 60px;
+        position: absolute;
+      }
+      &:before {
+        right: 100%;
+      }
+      &:after {
+        left: 100%;
+      }
+    }
+    i {
+      color: $primary_color;
+      font-size: 20px;
+      font-family: "FontAwesome";
+      padding: 5px 15px;
+      display: inline-block;
+    }
+  }
+}
+
+.ae-homepage-wrap {
+
+  .widget-title {
+    color: #0a0b0c;
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 40px 0 15px 0;
+    overflow: hidden;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1em;
+    span {
+      position: relative;
+      &::before {
+        background-color: $white_color;
+        content: "";
+        height: 1px;
+        position: absolute;
+        top: 0;
+        width: 100px;
+        right: 100%;
+        margin-right: 30px;
+        top: 46%;
+      }
+      &::after {
+        background-color: $white_color;
+        content: "";
+        height: 1px;
+        position: absolute;
+        top: 0;
+        width: 100px;
+        left: 100%;
+        margin-left: 30px;
+        top: 46%;
+      }
+    }
+  }
+  .bg_enabled .widget-title span {
+    &::before, &::after {
+      background-color: $primary_color;
+    }
+  }
+}
+
+@import "widgets/default-widgets";
+@import "widgets/featured-slider";
+@import "widgets/advertisement-widget";
+@import "widgets/cta-widget";
+@import "widgets/product-widget";
+@import "widgets/feature-widget";
+@import "widgets/contact-widget";
+@import "widgets/woo-category-widget";

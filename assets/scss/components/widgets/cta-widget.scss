@@ -1,0 +1,185 @@
+.agency_ecommerce_widget_call_to_action {
+  .cta-widget {
+    &.style-3 {
+      .call-to-action-offer {
+        .call-to-action-offer-inner {
+          &:before {
+            -webkit-transform: none;
+            -moz-transform: none;
+            transform: none;
+            border-radius: 0;
+          }
+        }
+      }
+      &:before {
+        border-radius: 0;
+        -webkit-transform: none;
+        -moz-transform: none;
+        transform: none;
+      }
+    }
+  }
+  display: block;
+  &:after {
+    clear: both;
+    content: '';
+    display: block;
+  }
+}
+
+.ae-homepage-wrap .widget.agency_ecommerce_widget_call_to_action {
+  background-position: center center;
+  background-size: cover;
+}
+
+.agency_ecommerce_widget_call_to_action {
+  padding: 90px 0 50px 0;
+  .cta-widget {
+    float: left;
+    position: relative;
+    height: 395px;
+    width: 395px;
+    &.position-right {
+      float: right;
+    }
+    &.position-center {
+      float: none;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    &:before {
+      position: absolute;
+      display: block;
+      content: "";
+      width: 280px;
+      height: 280px;
+      left: 58px;
+      top: 58px;
+      right: 0;
+      bottom: 0;
+      border-radius: 10px;
+      background: $primary_color;
+      -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      transform: rotate(45deg);
+    }
+    &.style-2:before {
+      border-radius: 100%;
+    }
+  }
+  .call-to-action-offer {
+    position: absolute;
+    top: -22px;
+    right: 50px;
+    .call-to-action-offer-inner {
+      float: left;
+      position: relative;
+      height: 162px;
+      width: 162px;
+      &:before {
+        position: absolute;
+        display: block;
+        content: "";
+        width: 115px;
+        height: 115px;
+        left: 23px;
+        top: 25px;
+        right: 0;
+        bottom: 0;
+        border-radius: 10px;
+        background: $white_color;
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        transform: rotate(45deg);
+      }
+    }
+  }
+  .cta-content-holder.cta-widget.style-2 {
+    .call-to-action-offer .call-to-action-offer-inner:before {
+      border-radius: 100%;
+    }
+    .call-to-action-wrap .call-to-action-buttons a {
+      border-radius: 40px;
+    }
+  }
+  .call-to-action-offer .call-to-action-offer-inner {
+    .cta-offer-wrap {
+      transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      z-index: 9;
+      text-align: center;
+    }
+    .discount-percent {
+      color: $primary_color;
+      font-size: 31px;
+      font-weight: 800;
+      margin-bottom: 5px;
+    }
+    .offer-text {
+      color: $primary_color;
+      font-size: 34px;
+      font-weight: 300;
+    }
+  }
+}
+
+.ae-homepage-wrap .agency_ecommerce_widget_call_to_action .call-to-action-wrap {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  padding-top: 30px;
+  .call-to-action-content .widget-title {
+    color: $white_color;
+    font-size: 26px;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    text-transform: none;
+  }
+}
+
+.agency_ecommerce_widget_call_to_action .call-to-action-wrap {
+  .call-to-action-content p {
+    color: $white_color;
+    font-size: 28px;
+    text-transform: none;
+    margin-bottom: 29px;
+  }
+  .call-to-action-buttons {
+    text-align: center;
+    a.button {
+      padding: 14px 18px;
+      font-size: 14px;
+      border: 1px solid $white_color;
+      &:visited {
+        color: $white_color;
+      }
+      &:hover {
+        border-color: $alternative_color;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .agency_ecommerce_widget_call_to_action .cta-widget {
+    float: none;
+    &.position-right, &.position-left {
+      float: none;
+    }
+  }
+}
