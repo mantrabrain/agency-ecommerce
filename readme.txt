@@ -85,6 +85,11 @@ Elegant Themes (https://github.com/pprince/etlinefont-bower), [GPLv3](https://ww
 == Changelog ==
 
 
+= 2.0.10 | 2019/09/16 =
+
+* Fixed - Minor responsive issue fixed
+* Fixed - Accessibility issue on navigation
+
 = 2.0.9 | 2019/09/16 =
 
 * Fixed - Minor issue fixed and about page added

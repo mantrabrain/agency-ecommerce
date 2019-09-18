@@ -92,7 +92,7 @@ a {
   ul {
     > li:hover > ul,
     > li a:focus ~ ul,
-    > li.focus>ul.sub-menu {
+    > li.focus > ul.sub-menu {
       opacity: 1;
       left: 100%;
       z-index: 9999;
@@ -105,9 +105,15 @@ a {
       }
     }
   }
-  ul.menu>li {
-    >ul.sub-menu {
-      left: 0;
+  ul.menu > li {
+
+    > ul.sub-menu {
+      left: -10000px;
+    }
+    &:hover, &.focus {
+      > ul.sub-menu {
+        left: 0;
+      }
     }
   }
   li li {
