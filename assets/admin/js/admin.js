@@ -14,8 +14,10 @@ var file_frame;
                 event.preventDefault();
                 $this.initWPImageUploader($(this));
             });
-            $('#widgets-right .widget:has(.color-picker)').each(function () {
-                $this.initColorPicker($(this));
+            $(document).ready(function () {
+                $('#widgets-right .widget:has(.color-picker)').each(function () {
+                    $this.initColorPicker($(this));
+                });
             });
             $(document).on('widget-added widget-updated', function (event, widget) {
 
