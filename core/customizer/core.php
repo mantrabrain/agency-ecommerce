@@ -144,6 +144,7 @@ if (!function_exists('agency_ecommerce_get_default_theme_options')) :
 
 
         $defaults['disable_focus_outline'] = false;
+        $defaults['footer_payment_image'] = '';
 
 
         $font_awesome_icons = array_keys(agency_ecommerce_font_awesome_icon_list());

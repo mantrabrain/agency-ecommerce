@@ -4,8 +4,8 @@ Contributors: mantrabrain
 Requires at least:  WordPress 4.5
 Tested up to:       WordPress 5.2.3
 Requires PHP:       5.4
-Version:            2.0.9
-Stable tag:         2.0.9
+Version:            2.0.10
+Stable tag:         2.0.10
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -85,10 +85,13 @@ Elegant Themes (https://github.com/pprince/etlinefont-bower), [GPLv3](https://ww
 == Changelog ==
 
 
-= 2.0.10 | 2019/09/16 =
+= 2.0.10 | 2019/09/26 =
 
 * Fixed - Minor responsive issue fixed
 * Fixed - Accessibility issue on navigation
+* Fixed - Footer padding issue
+* Added - Footer Payment Image Options
+* Fixed - Other Minor issues
 
 = 2.0.9 | 2019/09/16 =
 

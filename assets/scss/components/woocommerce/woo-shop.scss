@@ -55,3 +55,27 @@
     display: none;
   }
 }
+
+.woocommerce ul.products li.product .ae-woo-catalog,
+.ae-woo-catalog {
+  .woocommerce-loop-category__title {
+    background: #fbfbfb;
+    padding: 60px 10px;
+    text-align: center;
+    color: #0a0b0c;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    &:hover {
+      color: $primary_color;
+    }
+  }
+  img {
+    margin-bottom: 0;
+  }
+  mark.count {
+    padding: 5px;
+    border: 1px solid #ddd;
+    color: $primary_color;
+  }
+}

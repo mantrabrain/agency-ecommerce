@@ -51,7 +51,12 @@ class Agency_Ecommerce_Miscellaneous_Hooks
         add_action('agency_ecommerce_before_content', array($this, 'agency_ecommerce_before_content'));
         add_action('agency_ecommerce_after_content', array($this, 'agency_ecommerce_after_content'));
         add_action('agency_ecommerce_credit', array($this, 'agency_ecommerce_credit'));
+        $footer_payment_image = agency_ecommerce_get_option('footer_payment_image');
+        if(!empty($footer_payment_image)) {
+            add_action('agency_ecommerce_credit', array($this, 'agency_ecommerce_payment_option'));
+        }
     }
+
 
     public function agency_ecommerce_breadcrumb()
     {
@@ -85,6 +90,16 @@ class Agency_Ecommerce_Miscellaneous_Hooks
 
         <?php
 
+    }
+
+    public function agency_ecommerce_payment_option()
+    {
+        $footer_payment_image = agency_ecommerce_get_option('footer_payment_image');
+        ?>
+        <div class="payment-image">
+            <img src="<?php echo esc_attr($footer_payment_image); ?>"/>
+        </div>
+        <?php
     }
 
 

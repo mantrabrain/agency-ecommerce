@@ -29,7 +29,11 @@
     ?>
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="container">
-			<div class="site-footer-wrap">
+            <?php
+            $footer_payment_image = agency_ecommerce_get_option('footer_payment_image');
+
+            ?>
+			<div class="site-footer-wrap <?php echo !empty($footer_payment_image) ? 'ae-footer-payment':'' ?>">
 				<?php
 
 				$copyright_text = agency_ecommerce_get_option( 'copyright_text' );

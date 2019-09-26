@@ -203,7 +203,7 @@
 
     }
   }
-  .related.products > h2, .up-sells.products>h2, .cross-sells>h2 {
+  .related.products > h2, .up-sells.products > h2, .cross-sells > h2 {
     position: relative;
     text-transform: uppercase;
     font-size: 16px;
@@ -523,4 +523,14 @@
 
 .ae-cart-wrapper:hover .ae-cart-content p.woocommerce-mini-cart__buttons.buttons a:hover {
   color: #fff;
+}
+
+a.button.product_type_variable,
+.woocommerce a.button.product_type_variable {
+  background: inherit;
+  &:hover {
+    color: #fff;
+    background: $alternative_color;
+    border: 1px solid $alternative_color;
+  }
 }

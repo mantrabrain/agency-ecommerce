@@ -100,7 +100,24 @@ class Agency_Ecommerce_WooCommerce_Hooks
 
         add_action('woocommerce_proceed_to_checkout', array($this, 'woocommerce_continue_shopping'), 25);
 
+        // Category Listig Wrapper
 
+        add_action('woocommerce_before_subcategory', array($this, 'before_subcategory'), 1);
+        add_action('woocommerce_after_subcategory', array($this, 'after_subcategory'), 25);
+
+
+    }
+
+    public function before_subcategory()
+    {
+
+        echo '<div class="ae-woo-block-wrap ae-woo-catalog">';
+    }
+
+    public function after_subcategory()
+    {
+
+        echo '</div>';
     }
 
     public function woocommerce_cross_sells_columns()

@@ -104,7 +104,11 @@ if (!function_exists('agency_ecommerce_dynamic_options')) :
             .entry-footer > span a:hover,
             .pagination .nav-links .page-numbers.current,
             .posted-on:hover:before, .byline:hover:before, .cat-links:hover:before,
-            .nav-links a.page-numbers:hover {
+            .nav-links a.page-numbers:hover,
+            .ae-sticky-add-to-cart__content-price ins,
+            .woocommerce ul.products li.product .ae-woo-catalog .woocommerce-loop-category__title:hover, .ae-woo-catalog .woocommerce-loop-category__title:hover,
+            .woocommerce ul.products li.product .ae-woo-catalog mark.count, .ae-woo-catalog mark.count
+            {
 
                 color: <?php echo esc_attr( $primary_color ); ?>;
             }

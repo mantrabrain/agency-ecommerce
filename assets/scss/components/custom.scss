@@ -154,8 +154,6 @@ p, li {
   }
 }
 
-
-
 /*--------------------------------------------------------------
  ##  Header Style
  --------------------------------------------------------------*/
@@ -1693,7 +1691,7 @@ body.global-layout-left-sidebar {
 #colophon {
   clear: both;
   color: $white_color;
-  padding-bottom: 35px;
+  padding: 20px 0;
   text-align: center;
   &.site-footer {
     background: $alternative_color;
@@ -1805,7 +1803,15 @@ body.global-layout-left-sidebar {
 
 .site-footer-wrap {
   width: 100%;
-  padding-top: 30px;
+  padding-top: 10px;
+  &.ae-footer-payment{
+    .copyright,.site-info{
+      float:left;
+    }
+    .payment-image{
+      float:right;
+    }
+  }
 }
 
 #footer-navigation li {
@@ -2236,6 +2242,7 @@ div.wpcf7 {
     //margin-right: 10px;
   }
 }
+
 .primary-sidebar .widget ul li {
   padding: 10px 0px;
   border-bottom: 1px dashed #ddd;
@@ -2593,6 +2600,7 @@ a.button.btn-view-details:hover {
       color: #808080;
     }
   }
+
 }
 
 /*--------------------------------------------------------------

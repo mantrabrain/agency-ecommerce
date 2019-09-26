@@ -562,7 +562,7 @@
     margin: 15px 0 0;
   }
   #colophon {
-    .copyright, .site-info {
+    .copyright, .site-info, .payment-image {
       clear: both;
       text-align: center;
       width: 100%;
@@ -582,7 +582,10 @@
     margin-bottom: 15px;
   }
   #colophon .copyright {
-    margin-bottom: 5px;
+    margin-bottom: 15px;
+  }
+  #colophon .payment-image {
+    margin-top: 15px;
   }
   .newsletter-form form, .error-404.not-found form.search-form {
     width: 100%;
