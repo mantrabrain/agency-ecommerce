@@ -2,7 +2,7 @@
   "name": "agency-ecommerce",
   "title": "Agency Ecommerce",
   "version": "1.0.0",
-  "homepage": "https://mantrabrain.com/downloads/agency-ecommerce-wordpress-woocommerce-theme/",
+  "homepage": "https://mantrabrain.com/downloads/agency-ecommerce/",
   "repository": {
     "type": "git",
     "url": "https://github.com/mantrabrain/agency-ecommerce.git"
@@ -25,7 +25,6 @@
     "grunt-postcss": "~0.9.0",
     "grunt-rtlcss": "~2.0.1",
     "grunt-sass": "^2.0.0",
-    "grunt-ssh": "^0.12.9",
     "grunt-stylelint": "~0.9.0",
     "grunt-wp-i18n": "^1.0.3"
   },

@@ -6333,6 +6333,17 @@ body.woocommerce-cart.ae-cart-tmpl-1 .cart-collaterals .cross-sells ul.products 
 
 .special-sub-menu {
   width: 225px; }
+  .special-sub-menu .sub-menu {
+    position: absolute;
+    height: 400px;
+    background: red;
+    padding: 10px;
+    right: -100%;
+    left: unset !important;
+    z-index: 999999;
+    opacity: 1 !important;
+    top: 0 !important;
+    width: 100%; }
 
 .special-menu-container {
   float: left; }

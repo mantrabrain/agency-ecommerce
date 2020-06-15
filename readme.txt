@@ -2,10 +2,10 @@
 
 Contributors: mantrabrain
 Requires at least:  WordPress 4.5
-Tested up to:       WordPress 5.3.2
+Tested up to:       WordPress 5.4.2
 Requires PHP:       5.4
-Version:            2.0.11
-Stable tag:         2.0.11
+Version:            2.0.12
+Stable tag:         2.0.12
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -80,62 +80,3 @@ Elegant Themes (https://github.com/pprince/etlinefont-bower), [GPLv3](https://ww
 
 * Other Image
 - Copyright (C) 2019, mantrabrain, GPLv2](https://www.gnu.org/licenses/gpl-2.0.html)
-
-
-== Changelog ==
-
-
-= 2.0.11 | 2020/03/17 =
-* Version tested
-= 2.0.10 | 2019/09/26 =
-
-* Fixed - Minor responsive issue fixed
-* Fixed - Accessibility issue on navigation
-* Fixed - Footer padding issue
-* Added - Footer Payment Image Options
-* Fixed - Other Minor issues
-
-= 2.0.9 | 2019/09/16 =
-
-* Fixed - Minor issue fixed and about page added
-
-= 2.0.8 | 2019/09/16 =
-
-* Fixed - Accessibility issue fixed for navigation
-
-= 2.0.7 | 2019/09/15 =
-
-* Issue reported by theme reviewer fixed
-
-= 2.0.6 | 2019/08/18 =
-
-* Issue reported by theme reviewer fixed
-
-= 2.0.5 | 2019/08/08 =
-
-* Issue reported by theme reviewer fixed
-
-= 2.0.4 | 2019/08/02 =
-
-* Minor design issue fixed
-* Issue reported by theme reviewer fixed ( escaping issue )
-
-= 2.0.3 | 2019/07/29 =
-
-* Minor design issue fixed
-* Widget full/width issue fixed
-* Cart/Checkout template added
-
-= 2.0.2 | 2019/07/25 =
-
-* Reported issue fixed
-* Minor design issue fixed
-
-= 2.0.1 | 2019/07/19 =
-* Issue fixed
-* Single product sticky add to cart option added
-* Grid/List view on shop page
-
-
-= 2.0 | 2019/06/27 =
-* Initial release

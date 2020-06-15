@@ -1,0 +1,31 @@
+
+div[id*="agency-ecommerce"].widget h3 {
+
+	border-left: 3px solid #0166bf;
+	background: rgba(1, 102, 191, 0.2);
+
+}
+
+
+#sub-accordion-section-agency_ecommerce_important_links li.customize-control-agency-ecommerce-important-links p a {
+	width: 100%;
+	display: inline-block;
+	background: #0166bf;
+	padding: 10px;
+	color: #ffff;
+
+}
+
+.customize-pane-parent li#accordion-section-agency_ecommerce_important_links h3.accordion-section-title,
+.customize-pane-parent li#accordion-section-agency_ecommerce_important_links,
+.customize-pane-parent li#accordion-section-agency_ecommerce_important_links:hover h3.accordion-section-title,
+.customize-pane-parent li#accordion-section-agency_ecommerce_important_links h3.accordion-section-title:focus {
+	background: #0166bf;
+	color: #fff;
+}
+
+.customize-pane-parent li#accordion-section-agency_ecommerce_important_links h3.accordion-section-title:after,
+.customize-pane-parent li#accordion-section-agency_ecommerce_important_links h3.accordion-section-title:focus:after,
+.customize-pane-parent li#accordion-section-agency_ecommerce_important_links:hover h3.accordion-section-title:after {
+	color: #fff;
+}

@@ -174,8 +174,9 @@ module.exports = function (grunt) {
             files: {
                 src: [
                     '**/*.php',         // Include all files
-                    '!node_modules/**', // Exclude node_modules/
-                    '!vendor/**'        // Exclude vendor/
+                    '!node_core/modules/**', // Exclude node_core/modules/
+                    '!vendor/**',     // Exclude vendor/
+                    '!node_modules/**'        // Exclude vendor/
                 ],
                 expand: true
             }
@@ -190,7 +191,7 @@ module.exports = function (grunt) {
             dist: {
                 src: [
                     '**/*.php',         // Include all files
-                    '!node_modules/**', // Exclude node_modules/
+                    '!node_core/modules/**', // Exclude node_core/modules/
                     '!vendor/**'        // Exclude vendor/
                 ]
             }
@@ -235,15 +236,19 @@ module.exports = function (grunt) {
                     '!sass/**',
                     '!vendor/**',
                     '!Gruntfile.js',
-                    '!package.json',
                     '!package-lock.json',
                     '!composer.json',
+                    '!package.json',
+                    '!composer-lock.json',
                     '!composer.lock',
                     '!node_modules/**',
                     '!phpcs.ruleset.xml',
-                    '!.editorconfig',
-                    '!.gitignore'
-
+                    '!demo-content/**',
+                    '!mantrabrain-theme/.git',
+                    '!assets/css/*.map',
+                    '!*.gitignore',
+                    '!.git',
+                    '!requirement.txt'
                 ],
                 dest: 'agency-ecommerce',
                 expand: true
