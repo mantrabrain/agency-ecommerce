@@ -58,6 +58,9 @@ License: [MIT](http://opensource.org/licenses/MIT)
 - TRT Customizer Pro, 
 (C) 2016 Justin Tadlock (https://github.com/justintadlock/trt-customizer-pro), [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html
 
+- eCommerce Gem, 
+(C) 2020 ProDesigns (https://www.prodesigns.com/wordpress-themes/downloads/ecommerce-gem/), [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html
+
 - ET Line Icons
 Elegant Themes (https://github.com/pprince/etlinefont-bower), [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html)
 
