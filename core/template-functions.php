@@ -318,7 +318,7 @@ if (!function_exists('agency_ecommerce_special_navigation_fallback')) {
     {
 
         $home_url = esc_url(home_url('/'));
-        $fallback_menu = '<ul id="special-menu" class="sub-menu special-sub-menu" style="overflow-y: scroll;">';
+        $fallback_menu = '<ul id="special-menu" class="sub-menu special-sub-menu">';
         $fallback_menu .= '<li><a href="' . $home_url . '" rel="home">' . esc_html__('Home', 'agency-ecommerce') . '</a></li>';
         $fallback_menu .= '<li><a target="_blank" href="#" rel="demo">' . esc_html__('Demo', 'agency-ecommerce') . '</a></li>';
         $fallback_menu .= '<li><a target="_blank" href="#" rel="docs">' . esc_html__('Docs', 'agency-ecommerce') . '</a></li>';

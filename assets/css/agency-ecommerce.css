@@ -6335,15 +6335,21 @@ body.woocommerce-cart.ae-cart-tmpl-1 .cart-collaterals .cross-sells ul.products 
   width: 225px; }
   .special-sub-menu .sub-menu {
     position: absolute;
-    height: 400px;
-    background: red;
-    padding: 10px;
+    background: #fff;
     right: -100%;
     left: unset !important;
     z-index: 999999;
     opacity: 1 !important;
-    top: 0 !important;
-    width: 100%; }
+    top: -1px !important;
+    width: 100%;
+    padding: 0;
+    border: 1px solid #ddd;
+    box-shadow: 0px 2px 7px 1px rgba(0, 0, 0, 0.2);
+    display: none; }
+  .special-sub-menu li.menu-item-has-children ul.sub-menu > li:last-child {
+    border-bottom: none; }
+  .special-sub-menu li.menu-item-has-children .sub-menu.special-sub-menu:hover > ul.sub-menu {
+    display: block; }
 
 .special-menu-container {
   float: left; }
@@ -6356,7 +6362,7 @@ body.woocommerce-cart.ae-cart-tmpl-1 .cart-collaterals .cross-sells ul.products 
       font-weight: 700;
       letter-spacing: 1px;
       line-height: normal;
-      padding: 25px 15px;
+      padding: 24px 15px;
       position: relative;
       text-transform: uppercase;
       background: #0188cc;
@@ -6373,13 +6379,13 @@ body.woocommerce-cart.ae-cart-tmpl-1 .cart-collaterals .cross-sells ul.products 
       .special-menu-container ul.special-menu-wrapper ul.special-sub-menu {
         z-index: 999;
         max-height: 433px;
-        overflow: hidden;
         opacity: 0;
         left: -9999999px;
         position: absolute;
         margin-left: 0;
         box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-        overflow-y: scroll; }
+        overflow-y: scroll;
+        overflow-x: hidden; }
         .special-menu-container ul.special-menu-wrapper ul.special-sub-menu::-webkit-scrollbar-track {
           -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
           background-color: #F5F5F5;
@@ -6402,8 +6408,27 @@ body.woocommerce-cart.ae-cart-tmpl-1 .cart-collaterals .cross-sells ul.products 
           font-size: 15px;
           font-weight: 700;
           text-transform: uppercase;
-          width: 100%;
-          padding: 3px; }
+          width: 100%; }
+          .special-menu-container ul.special-menu-wrapper ul.special-sub-menu li > a {
+            position: relative; }
+            .special-menu-container ul.special-menu-wrapper ul.special-sub-menu li > a button {
+              display: none;
+              position: absolute;
+              right: 0;
+              background: transparent;
+              border: none;
+              padding: 0 13px;
+              line-height: inherit;
+              color: inherit !important;
+              font-size: 20px;
+              font-weight: bolder;
+              text-align: center;
+              height: 100%;
+              top: -3px;
+              z-index: 999; }
+              .special-menu-container ul.special-menu-wrapper ul.special-sub-menu li > a button span {
+                font-weight: inherit;
+                color: inherit !important; }
           .special-menu-container ul.special-menu-wrapper ul.special-sub-menu li a {
             padding: 15px 15px;
             display: inline-block;
@@ -6414,8 +6439,9 @@ body.woocommerce-cart.ae-cart-tmpl-1 .cart-collaterals .cross-sells ul.products 
             line-height: 18px;
             letter-spacing: -.3px; }
           .special-menu-container ul.special-menu-wrapper ul.special-sub-menu li:hover {
-            background: #0188cc; }
-            .special-menu-container ul.special-menu-wrapper ul.special-sub-menu li:hover a {
+            color: #ffffff; }
+            .special-menu-container ul.special-menu-wrapper ul.special-sub-menu li:hover > a {
+              background: #0188cc;
               color: #ffffff; }
             .special-menu-container ul.special-menu-wrapper ul.special-sub-menu li:hover.fa {
               color: #ffffff; }
@@ -6446,14 +6472,21 @@ body.woocommerce-cart.ae-cart-tmpl-1 .cart-collaterals .cross-sells ul.products 
         right: 10px; }
       .special-menu-container ul.special-menu-wrapper li.menu-item-has-children > ul > li .angle-down {
         line-height: 40px; }
-      .special-menu-container ul.special-menu-wrapper li.menu-item-has-children:hover ul,
+      .special-menu-container ul.special-menu-wrapper li.menu-item-has-children:hover > ul,
       .special-menu-container ul.special-menu-wrapper li.menu-item-has-children a.special-menu:focus ~ ul,
-      .special-menu-container ul.special-menu-wrapper li.menu-item-has-children.focus ul {
+      .special-menu-container ul.special-menu-wrapper li.menu-item-has-children.focus > ul {
         left: auto;
         display: block;
         opacity: 1;
         top: 100%;
         animation: fade 0.5s; }
+    .special-menu-container ul.special-menu-wrapper.dropdown-enable .special-sub-menu {
+      overflow-x: unset;
+      overflow-y: unset; }
+      .special-menu-container ul.special-menu-wrapper.dropdown-enable .special-sub-menu li.menu-item-has-children > a:after {
+        content: "\f105";
+        font-family: FontAwesome;
+        float: right; }
 
 .home.page-template-home-template .special-menu-container:not(.onhover) .special-sub-menu {
   opacity: 1;
@@ -6461,7 +6494,21 @@ body.woocommerce-cart.ae-cart-tmpl-1 .cart-collaterals .cross-sells ul.products 
 
 @media (min-width: 1051px) {
   .site-header.right-special-menu .special-menu-container {
-    float: right; } }
+    float: right; }
+    .site-header.right-special-menu .special-menu-container .special-sub-menu .sub-menu {
+      right: unset !important;
+      left: -100% !important;
+      margin: 0; } }
+
+@media (max-width: 1050px) {
+  .site-header .special-menu-container .special-sub-menu li.menu-item-has-children > a:after {
+    content: none !important; }
+  .site-header .special-menu-container .special-sub-menu li.menu-item-has-children button {
+    display: unset; }
+  .site-header .special-menu-container .special-sub-menu li.menu-item-has-children > ul.sub-menu {
+    position: unset; }
+  .site-header .special-menu-container .special-sub-menu .sub-menu {
+    box-shadow: none; } }
 
 .mb-homepage-main.has-sidebar .homepage-sidebar {
   max-width: 25%;

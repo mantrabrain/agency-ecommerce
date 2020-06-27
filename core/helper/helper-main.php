@@ -352,8 +352,17 @@ if (!function_exists('agency_ecommerce_special_menu')) {
 	{
 		$special_menu_text = agency_ecommerce_get_option('special_menu_text');
 
+		$special_menu_dropdown_enable = (boolean)agency_ecommerce_get_option('special_menu_dropdown_enable');
+
+		$special_menu_wrapper_class = 'menu special-menu-wrapper';
+
+
+		if ($special_menu_dropdown_enable) {
+			$special_menu_wrapper_class .= ' dropdown-enable';
+		}
+
 		?>
-		<ul class="menu special-menu-wrapper">
+		<ul class="<?php echo esc_attr($special_menu_wrapper_class); ?>">
 			<li class="menu-item menu-item-has-children">
 				<i class="fa fa-angle-down angle-down"></i>
 				<a href="javascript:void(0)" class="special-menu">
@@ -364,7 +373,6 @@ if (!function_exists('agency_ecommerce_special_menu')) {
 					'theme_location' => 'special-menu',
 					'menu_class' => 'sub-menu special-sub-menu',
 					'container' => false,
-					'depth' => 3,
 					'fallback_cb' => 'agency_ecommerce_special_navigation_fallback'
 				));
 
