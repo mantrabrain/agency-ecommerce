@@ -6,7 +6,7 @@ if (!function_exists('agency_ecommerce_get_recommanded_plugins')) {
 		$plugins = array(
 
 			array(
-				'name' => esc_html__('Mantra Brain Starter Sites', 'agency_ecommerce'),
+				'name' => esc_html__('Mantra Brain Starter Sites', 'agency-ecommerce'),
 				'slug' => 'mantrabrain-starter-sites',
 				'required' => false,
 			),
