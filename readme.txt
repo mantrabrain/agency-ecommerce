@@ -2,10 +2,10 @@
 
 Contributors: mantrabrain
 Requires at least:  WordPress 4.5
-Tested up to:       WordPress 5.4.2
+Tested up to:       WordPress 5.6
 Requires PHP:       5.4
-Version:            2.0.12
-Stable tag:         2.0.12
+Version:            2.0.13
+Stable tag:         2.0.13
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -83,3 +83,7 @@ Elegant Themes (https://github.com/pprince/etlinefont-bower), [GPLv3](https://ww
 
 * Other Image
 - Copyright (C) 2019, mantrabrain, GPLv2](https://www.gnu.org/licenses/gpl-2.0.html)
+
+= 2.0.13 | 2020/08/16 =
+* Fixed  - Version tested
+* Fixed - Minor design issue fixed
