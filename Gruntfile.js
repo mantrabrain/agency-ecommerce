@@ -63,7 +63,7 @@ module.exports = function (grunt) {
         // Compile all .scss files.
         sass: {
             options: {
-                sourceMap: false
+                sourceMap: true
             },
             compile: {
                 files: [{
