@@ -34,6 +34,7 @@
   },
   "dependencies": {
     "node-bourbon": "^4.2.8",
+    "node-sass": "^4.13.1",
     "npm": "^6.4.1",
     "uglify": "^0.1.5"
   }

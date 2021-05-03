@@ -21,7 +21,7 @@ require_once AGENCY_ECOMMERCE_THEME_DIR . 'core/class-agency-ecommerce-core.php'
 
 function Agency_Ecommerce()
 {
-    return Agency_Ecommerce_Core::get_instance();
+	return Agency_Ecommerce_Core::get_instance();
 }
 
 Agency_Ecommerce();
