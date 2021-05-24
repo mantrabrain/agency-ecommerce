@@ -176,7 +176,24 @@ $wp_customize->add_setting('agency_ecommerce_theme_options[login_icon]',
         'sanitize_callback' => 'sanitize_text_field',
     )
 );
-$wp_customize->add_control('agency_ecommerce_theme_options[login_icon]',
+
+$wp_customize->add_control(
+	new Agency_Ecommerce_Customizer_Control_Icon_Picker(
+		$wp_customize,
+		'agency_ecommerce_theme_options[login_icon]',
+		array(
+			'label' => esc_html__('Login/Register Icon', 'agency-ecommerce'),
+			'description' => esc_html__('Fontawesome icons are only supported.', 'agency-ecommerce'),
+			'section' => 'section_header',
+			'priority' => 100,
+			'active_callback' => 'agency_ecommerce_is_top_login_logout_active',
+
+
+		)
+	)
+);
+
+/*$wp_customize->add_control('agency_ecommerce_theme_options[login_icon]',
     array(
         'label' => esc_html__('Login/Register Icon', 'agency-ecommerce'),
         'description' => esc_html__('Fontawesome icons are only supported.', 'agency-ecommerce'),
@@ -185,7 +202,7 @@ $wp_customize->add_control('agency_ecommerce_theme_options[login_icon]',
         'priority' => 100,
         'active_callback' => 'agency_ecommerce_is_top_login_logout_active',
     )
-);
+);*/
 
 // Setting login text.
 $wp_customize->add_setting('agency_ecommerce_theme_options[login_text]',
