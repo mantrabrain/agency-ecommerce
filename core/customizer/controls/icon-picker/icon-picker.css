@@ -28,6 +28,7 @@
 
 #agency-ecommerce-customizer-icon-picker * {
 	box-sizing: border-box;
+	width: 100%;
 }
 
 #agency-ecommerce-customizer-icon-picker #agency-ecommerce-icon-browser {

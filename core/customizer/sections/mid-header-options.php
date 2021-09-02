@@ -60,6 +60,7 @@ if (class_exists('WooCommerce')) {
             'sanitize_callback' => 'agency_ecommerce_sanitize_checkbox',
         )
     );
+
     $wp_customize->add_control('agency_ecommerce_theme_options[show_mid_header_cart]',
         array(
             'label' => esc_html__('Show Cart Icon', 'agency-ecommerce'),
@@ -77,18 +78,24 @@ if (class_exists('WooCommerce')) {
             'sanitize_callback' => 'sanitize_text_field',
         )
     );
-    $wp_customize->add_control('agency_ecommerce_theme_options[mid_header_cart_icon]',
-        array(
-            'label' => esc_html__('Cart Icon', 'agency-ecommerce'),
-            'description' => esc_html__('Fontawesome icons are only supported.', 'agency-ecommerce'),
-            'section' => 'section_mid_header',
-            'type' => 'text',
-            'priority' => 40,
-            'active_callback' => 'agency_ecommerce_is_top_cart_active',
-        )
-    );
 
-    // Setting show_mid_header_wishlist.
+	$wp_customize->add_control(
+		new Agency_Ecommerce_Customizer_Control_Icon_Picker(
+			$wp_customize,
+			'agency_ecommerce_theme_options[mid_header_cart_icon]',
+			array(
+				'label' => esc_html__('Cart Icon', 'agency-ecommerce'),
+				'description' => esc_html__('Fontawesome icons are only supported.', 'agency-ecommerce'),
+				'section' => 'section_mid_header',
+				'priority' => 40,
+				'active_callback' => 'agency_ecommerce_is_top_cart_active',
+
+
+			)
+		)
+	);
+
+	// Setting show_mid_header_wishlist.
     $wp_customize->add_setting('agency_ecommerce_theme_options[show_mid_header_wishlist]',
         array(
             'default' => $default['show_mid_header_wishlist'],

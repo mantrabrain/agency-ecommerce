@@ -19,12 +19,12 @@
     "grunt-contrib-jshint": "^1.1.0",
     "grunt-contrib-uglify": "^3.0.1",
     "grunt-contrib-watch": "^1.0.0",
-    "grunt-fixmyjs": "^0.3.0",
+    "grunt-fixmyjs": "^0.1.0",
     "grunt-phpcbf": "^0.1.1",
     "grunt-phpcs": "^0.4.0",
     "grunt-postcss": "~0.9.0",
     "grunt-rtlcss": "~2.0.1",
-    "grunt-sass": "^2.0.0",
+    "grunt-sass": "^3.1.0",
     "grunt-stylelint": "~0.9.0",
     "grunt-wp-i18n": "^1.0.3"
   },
@@ -34,7 +34,7 @@
   },
   "dependencies": {
     "node-bourbon": "^4.2.8",
-    "node-sass": "^4.13.1",
+    "node-sass": "^6.0.1",
     "npm": "^6.4.1",
     "uglify": "^0.1.5"
   }

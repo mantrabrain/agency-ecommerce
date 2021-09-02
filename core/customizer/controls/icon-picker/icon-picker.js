@@ -37,6 +37,11 @@
 			$('#agency-ecommerce-customizer-icon-picker').addClass('picker-active');
 			$('.agency-ecommerce-icon-picker-control-field .customize-control-icon-picker-value').removeClass('open-input-field');
 			input.addClass('open-input-field');
+			$('#agency-ecommerce-icon-browser ul.agency-ecommerce-icon-list-ul li').removeClass('active');
+			var input_val = input.val();
+			if (input_val != '') {
+				$('#agency-ecommerce-icon-browser ul.agency-ecommerce-icon-list-ul li[data-icon="' + input_val + '"]').addClass('active');
+			}
 		},
 		initClosePickerPanel: function () {
 			$document.on('click', '.picker-header .customize-controls-icon-close', function () {
@@ -145,7 +150,7 @@
 					var icon_prefix = '';
 					switch (icon_key) {
 						case "font_awesome":
-
+							icon_prefix = 'fa ';
 							break;
 					}
 					if (typeof icon_key != undefined) {
@@ -156,7 +161,11 @@
 
 
 						for (var all_icon_key in all_icons) {
-							icon_list_node.append('<li title="' + all_icon_key + '" data-type="' + icon_key + '" data-icon="' + icon_prefix + ' ' + all_icon_key + '" style="display: list-item;"><span class="icon-wrapper"><i class="' + icon_prefix + ' ' + all_icon_key + '"></i></span></li>');
+							if (all_icon_key.replace(icon_prefix) != all_icon_key) {
+								icon_prefix = '';
+
+							}
+							icon_list_node.append('<li title="' + all_icon_key + '" data-type="' + icon_key + '" data-icon="' + icon_prefix + all_icon_key + '" style="display: list-item;"><span class="icon-wrapper"><i class="' + icon_prefix + ' ' + all_icon_key + '"></i></span></li>');
 						}
 					}
 					all_icon_list.append(icon_list_node);

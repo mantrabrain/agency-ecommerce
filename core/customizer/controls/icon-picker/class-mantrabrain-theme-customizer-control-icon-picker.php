@@ -46,8 +46,6 @@ class Agency_Ecommerce_Customizer_Control_Icon_Picker extends WP_Customize_Contr
 	public function render_content()
 	{
 		$default = isset($this->setting->default) ? $this->setting->default : '';
-
-
 		?>
 		<div class="agency-ecommerce-icon-picker-control">
 			<?php

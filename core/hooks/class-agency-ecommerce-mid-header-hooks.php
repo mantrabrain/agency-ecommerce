@@ -28,10 +28,10 @@ class Agency_Ecommerce_Mid_Header_Hooks
      *
      * Ensures only one instance of Agency_Ecommerce_Mid_Header_Hooks is loaded or can be loaded.
      *
+     * @return Agency_Ecommerce_Mid_Header_Hooks - Main instance.
+     *@see mb_ae_addons()
      * @since 1.0.0
      * @static
-     * @see mb_ae_addons()
-     * @return Agency_Ecommerce_Mid_Header_Hooks - Main instance.
      */
     public static function instance()
     {
@@ -45,11 +45,7 @@ class Agency_Ecommerce_Mid_Header_Hooks
 
     public function hooks()
     {
-  // Top header status.
-        $show_mid_header = (boolean)agency_ecommerce_get_option('show_mid_header');
-        if (!$show_mid_header) {
-            return;
-        }
+
         add_action('agency_ecommerce_before_mid_header', array($this, 'agency_ecommerce_before_mid_header_action'), 10);
         add_action('agency_ecommerce_after_mid_header', array($this, 'agency_ecommerce_after_mid_header_action'), 10);
         add_action('agency_ecommerce_mid_header', array($this, 'agency_ecommerce_mid_header_action'), 10);
@@ -57,18 +53,30 @@ class Agency_Ecommerce_Mid_Header_Hooks
 
     }
     public function agency_ecommerce_before_mid_header_action(){
+    	$show_mid_header = (boolean)agency_ecommerce_get_option('show_mid_header');
+        if (!$show_mid_header) {
+            return;
+        }
         ?>
     <div class="mid-header">
         <div class="container">
             <?php
     }
     public function agency_ecommerce_after_mid_header_action(){
+    	$show_mid_header = (boolean)agency_ecommerce_get_option('show_mid_header');
+        if (!$show_mid_header) {
+            return;
+        }
         echo '</div>'; #Container close
         echo '</div>'; # Mid Header Div Close
     }
 
     public function agency_ecommerce_mid_header_action()
     {
+    	$show_mid_header = (boolean)agency_ecommerce_get_option('show_mid_header');
+        if (!$show_mid_header) {
+            return;
+        }
         ?>
         <div class="site-branding">
                     <?php
