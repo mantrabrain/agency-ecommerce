@@ -1,14 +1,14 @@
-# <!=Copyright (C) 2020 mantrabrain
+# <!=Copyright (C) 2021 mantrabrain
 # This file is distributed under the GNU General Public License v2 or later.=!>
 msgid ""
 msgstr ""
-"Project-Id-Version: Agency Ecommerce 2.0.12\n"
+"Project-Id-Version: Agency Ecommerce 2.0.14\n"
 "Report-Msgid-Bugs-To: mantrabrain@gmail.com\n"
-"POT-Creation-Date: 2020-06-27 09:18:57+00:00\n"
+"POT-Creation-Date: 2021-09-02 12:17:54+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2021-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "X-Generator: grunt-wp-i18n 1.0.3\n"
@@ -122,6 +122,10 @@ msgstr ""
 msgid "Top Footer %d"
 msgstr ""
 
+#: core/customizer/controls/icon-picker/icon-picker.php:27
+msgid "Font Awesome"
+msgstr ""
+
 #: core/customizer/core.php:67
 msgid "Login / Register"
 msgstr ""
@@ -165,7 +169,7 @@ msgid "It looks like nothing was found at this location. Maybe try a search?"
 msgstr ""
 
 #: core/customizer/sections/404-options.php:5
-msgid "404 Page Options"
+msgid "404 Page"
 msgstr ""
 
 #: core/customizer/sections/404-options.php:19
@@ -177,7 +181,7 @@ msgid "404 Page Content"
 msgstr ""
 
 #: core/customizer/sections/accessibility-options.php:5
-msgid "Accessibility Options"
+msgid "Accessibility"
 msgstr ""
 
 #: core/customizer/sections/accessibility-options.php:19
@@ -185,7 +189,8 @@ msgid "Disable focus outline"
 msgstr ""
 
 #: core/customizer/sections/bottom-header-options.php:7
-msgid "Bottom Header Options"
+#: core/info/about/class-agency-ecommerce-about.php:446
+msgid "Bottom Header"
 msgstr ""
 
 #: core/customizer/sections/bottom-header-options.php:23
@@ -268,7 +273,7 @@ msgid "If you enable dropdown option for special menu, max height will not work.
 msgstr ""
 
 #: core/customizer/sections/breadcrumb-options.php:6
-msgid "Breadcrumb Options"
+msgid "Breadcrumb"
 msgstr ""
 
 #: core/customizer/sections/breadcrumb-options.php:21
@@ -322,7 +327,8 @@ msgid "Enable/disable parallax background"
 msgstr ""
 
 #: core/customizer/sections/footer-options.php:5
-msgid "Footer Options"
+#: core/info/about/class-agency-ecommerce-about.php:451
+msgid "Footer"
 msgstr ""
 
 #: core/customizer/sections/footer-options.php:19
@@ -338,7 +344,7 @@ msgid "Payment image for footer. "
 msgstr ""
 
 #: core/customizer/sections/layout-options.php:5
-msgid "Layout Options"
+msgid "Layout"
 msgstr ""
 
 #: core/customizer/sections/layout-options.php:20
@@ -384,7 +390,8 @@ msgid "Read More Text"
 msgstr ""
 
 #: core/customizer/sections/mid-header-options.php:7
-msgid "Mid Header Options"
+#: core/info/about/class-agency-ecommerce-about.php:441
+msgid "Mid Header"
 msgstr ""
 
 #: core/customizer/sections/mid-header-options.php:23
@@ -395,41 +402,41 @@ msgstr ""
 msgid "Mid Header Branding Options"
 msgstr ""
 
-#: core/customizer/sections/mid-header-options.php:65
-#: core/customizer/sections/top-header-options.php:254
+#: core/customizer/sections/mid-header-options.php:66
+#: core/customizer/sections/top-header-options.php:268
 msgid "Show Cart Icon"
 msgstr ""
 
-#: core/customizer/sections/mid-header-options.php:82
-#: core/customizer/sections/top-header-options.php:271
+#: core/customizer/sections/mid-header-options.php:87
+#: core/customizer/sections/top-header-options.php:289
 msgid "Cart Icon"
 msgstr ""
 
-#: core/customizer/sections/mid-header-options.php:83
-#: core/customizer/sections/mid-header-options.php:118
-#: core/customizer/sections/top-header-options.php:182
-#: core/customizer/sections/top-header-options.php:238
-#: core/customizer/sections/top-header-options.php:272
+#: core/customizer/sections/mid-header-options.php:88
+#: core/customizer/sections/mid-header-options.php:129
+#: core/customizer/sections/top-header-options.php:186
+#: core/customizer/sections/top-header-options.php:249
+#: core/customizer/sections/top-header-options.php:290
 msgid "Fontawesome icons are only supported."
 msgstr ""
 
-#: core/customizer/sections/mid-header-options.php:100
-#: core/customizer/sections/top-header-options.php:220
+#: core/customizer/sections/mid-header-options.php:107
+#: core/customizer/sections/top-header-options.php:226
 msgid "Show Wishlist Icon (Works if YITH Wishlist plugin is activated)"
 msgstr ""
 
-#: core/customizer/sections/mid-header-options.php:117
-#: core/customizer/sections/top-header-options.php:237
+#: core/customizer/sections/mid-header-options.php:128
+#: core/customizer/sections/top-header-options.php:248
 msgid "Wishlist Icon"
 msgstr ""
 
-#: core/customizer/sections/mid-header-options.php:135
-#: core/customizer/sections/top-header-options.php:289
+#: core/customizer/sections/mid-header-options.php:147
+#: core/customizer/sections/top-header-options.php:308
 msgid "Show Product Search"
 msgstr ""
 
-#: core/customizer/sections/mid-header-options.php:136
-#: core/customizer/sections/top-header-options.php:290
+#: core/customizer/sections/mid-header-options.php:148
+#: core/customizer/sections/top-header-options.php:309
 msgid ""
 "You can change search text from Customizing ▸ Theme Options ▸Search Text "
 "Options"
@@ -444,7 +451,7 @@ msgid "Applied to main color of site."
 msgstr ""
 
 #: core/customizer/sections/product-single-page-options.php:5
-msgid "Product Single Page Options"
+msgid "Product Single Page"
 msgstr ""
 
 #: core/customizer/sections/product-single-page-options.php:20
@@ -482,7 +489,7 @@ msgid "Enable Image Zoom at Product Detail Page"
 msgstr ""
 
 #: core/customizer/sections/search-text-options.php:4
-msgid "Search Text Options"
+msgid "Search Text"
 msgstr ""
 
 #: core/customizer/sections/search-text-options.php:20
@@ -494,7 +501,7 @@ msgid "Select Category Text"
 msgstr ""
 
 #: core/customizer/sections/shop-page-options.php:5
-msgid "Shop Page Options"
+msgid "Shop Page"
 msgstr ""
 
 #: core/customizer/sections/shop-page-options.php:41
@@ -530,7 +537,7 @@ msgid "Product excerpt length"
 msgstr ""
 
 #: core/customizer/sections/social-options.php:5
-msgid "Social Options"
+msgid "Social Icons"
 msgstr ""
 
 #: core/customizer/sections/social-options.php:28
@@ -538,17 +545,18 @@ msgstr ""
 msgid "Social Icon Link - %d"
 msgstr ""
 
-#: core/customizer/sections/social-options.php:45
+#: core/customizer/sections/social-options.php:49
 #. translators: 1: Icon text id
 msgid "Icon Text - %d"
 msgstr ""
 
-#: core/customizer/sections/social-options.php:47
+#: core/customizer/sections/social-options.php:50
 msgid "Please enter font awesome icon text here."
 msgstr ""
 
 #: core/customizer/sections/top-header-options.php:5
-msgid "Top Header Options"
+#: core/info/about/class-agency-ecommerce-about.php:436
+msgid "Top Header"
 msgstr ""
 
 #: core/customizer/sections/top-header-options.php:20
@@ -605,16 +613,16 @@ msgstr ""
 msgid "Show Login/Register"
 msgstr ""
 
-#: core/customizer/sections/top-header-options.php:181
+#: core/customizer/sections/top-header-options.php:185
 msgid "Login/Register Icon"
 msgstr ""
 
-#: core/customizer/sections/top-header-options.php:199
+#: core/customizer/sections/top-header-options.php:205
 msgid "Login/Register Text"
 msgstr ""
 
 #: core/customizer/sections/woo-cart-options.php:5
-msgid "Cart Options"
+msgid "WooCommerce Cart"
 msgstr ""
 
 #: core/customizer/sections/woo-cart-options.php:21
@@ -640,7 +648,7 @@ msgid "Cart Sidebar"
 msgstr ""
 
 #: core/customizer/sections/woo-checkout-options.php:5
-msgid "Checkout Options"
+msgid "WooCommerce Checkout"
 msgstr ""
 
 #: core/customizer/sections/woo-checkout-options.php:21
@@ -651,7 +659,7 @@ msgstr ""
 msgid "Checkout Sidebar"
 msgstr ""
 
-#: core/customizer/sections.php:17
+#: core/customizer/sections.php:18
 msgid "Theme Options"
 msgstr ""
 
@@ -674,7 +682,7 @@ msgstr ""
 msgid "<a href=\"%1$s\">Get started here</a>."
 msgstr ""
 
-#: core/hooks/class-agency-ecommerce-miscellaneous-hooks.php:88
+#: core/hooks/class-agency-ecommerce-miscellaneous-hooks.php:86
 #. translators: 1: theme name, 2: author link
 msgid "%1$s by %2$s"
 msgstr ""
@@ -756,22 +764,6 @@ msgstr ""
 
 #: core/info/about/class-agency-ecommerce-about.php:431
 msgid "Global Colors"
-msgstr ""
-
-#: core/info/about/class-agency-ecommerce-about.php:436
-msgid "Top Header"
-msgstr ""
-
-#: core/info/about/class-agency-ecommerce-about.php:441
-msgid "Mid Header"
-msgstr ""
-
-#: core/info/about/class-agency-ecommerce-about.php:446
-msgid "Bottom Header"
-msgstr ""
-
-#: core/info/about/class-agency-ecommerce-about.php:451
-msgid "Footer"
 msgstr ""
 
 #: core/info/about/class-agency-ecommerce-about.php:462
