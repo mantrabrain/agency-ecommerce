@@ -2,7 +2,7 @@
 // Layout Section.
 $wp_customize->add_section('section_layout',
     array(
-        'title' => esc_html__('Layout Options', 'agency-ecommerce'),
+        'title' => esc_html__('Layout', 'agency-ecommerce'),
         'priority' => 50,
         'panel' => 'agency_ecommerce_theme_option_panel',
     )

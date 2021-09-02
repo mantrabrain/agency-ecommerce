@@ -2,7 +2,7 @@
 // Footer Section.
 $wp_customize->add_section('section_social',
     array(
-        'title' => esc_html__('Social Options', 'agency-ecommerce'),
+        'title' => esc_html__('Social Icons', 'agency-ecommerce'),
         'priority' => 110,
         'panel' => 'agency_ecommerce_theme_option_panel',
     )

@@ -2,7 +2,7 @@
 // Footer Section.
 $wp_customize->add_section('section_accessibility',
     array(
-        'title' => esc_html__('Accessibility Options', 'agency-ecommerce'),
+        'title' => esc_html__('Accessibility', 'agency-ecommerce'),
         'priority' => 130,
         'panel' => 'agency_ecommerce_theme_option_panel',
     )

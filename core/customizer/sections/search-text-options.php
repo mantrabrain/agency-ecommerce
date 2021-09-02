@@ -1,7 +1,7 @@
 <?php // Show product search section.
 $wp_customize->add_section('section_product_search_texts',
     array(
-        'title' => esc_html__('Search Text Options', 'agency-ecommerce'),
+        'title' => esc_html__('Search Text', 'agency-ecommerce'),
         'priority' => 60,
         'panel' => 'agency_ecommerce_theme_option_panel',
     )

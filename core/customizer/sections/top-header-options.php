@@ -2,7 +2,7 @@
 // Header Section.
 $wp_customize->add_section('section_header',
 	array(
-		'title' => esc_html__('Top Header Options', 'agency-ecommerce'),
+		'title' => esc_html__('Top Header', 'agency-ecommerce'),
 		'priority' => 10,
 		'panel' => 'agency_ecommerce_theme_option_panel',
 	)

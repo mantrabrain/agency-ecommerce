@@ -65,11 +65,11 @@ if (!function_exists('agency_ecommerce_get_default_theme_options')) :
 		$defaults['show_social_icons'] = true;
 		$defaults['show_login_logout'] = true;
 		$defaults['login_text'] = esc_html__('Login / Register', 'agency-ecommerce');
-		$defaults['login_icon'] = 'fa-user-o';
+		$defaults['login_icon'] = 'fa fa-user-o';
 		$defaults['show_cart'] = true;
-		$defaults['cart_icon'] = 'fa-shopping-cart';
+		$defaults['cart_icon'] = 'fa fa-shopping-cart';
 		$defaults['show_wishlist'] = false;
-		$defaults['wishlist_icon'] = 'fa-heart';
+		$defaults['wishlist_icon'] = 'fa fa-heart';
 		$defaults['show_top_search'] = true;
 		$defaults['search_products_text'] = esc_html__('Search Products', 'agency-ecommerce');
 		$defaults['select_category_text'] = esc_html__('Select Category', 'agency-ecommerce');
@@ -78,7 +78,7 @@ if (!function_exists('agency_ecommerce_get_default_theme_options')) :
 
 		$defaults['show_mid_header'] = true;
 		$defaults['show_mid_header_cart'] = true;
-		$defaults['mid_header_cart_icon'] = 'fa-shopping-cart';
+		$defaults['mid_header_cart_icon'] = 'fa fa-shopping-cart';
 		$defaults['show_mid_header_wishlist'] = true;
 		$defaults['mid_header_wishlist_icon'] = 'fa-heart';
 		$defaults['mid_header_site_identity'] = 'title-text';

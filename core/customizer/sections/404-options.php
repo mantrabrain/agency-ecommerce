@@ -2,7 +2,7 @@
 // Footer Section.
 $wp_customize->add_section('section_404',
     array(
-        'title' => esc_html__('404 Page Options', 'agency-ecommerce'),
+        'title' => esc_html__('404 Page', 'agency-ecommerce'),
         'priority' => 120,
         'panel' => 'agency_ecommerce_theme_option_panel',
     )

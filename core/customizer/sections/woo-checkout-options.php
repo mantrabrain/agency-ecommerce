@@ -2,7 +2,7 @@
 // Footer Section.
 $wp_customize->add_section('section_woo_checkout',
     array(
-        'title' => esc_html__('Checkout Options', 'agency-ecommerce'),
+        'title' => esc_html__('WooCommerce Checkout', 'agency-ecommerce'),
         'priority' => 90,
         'panel' => 'agency_ecommerce_theme_option_panel',
     )

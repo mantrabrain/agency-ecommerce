@@ -4,7 +4,7 @@
 // Header Section.
 $wp_customize->add_section('section_mid_header',
     array(
-        'title' => esc_html__('Mid Header Options', 'agency-ecommerce'),
+        'title' => esc_html__('Mid Header', 'agency-ecommerce'),
         'priority' => 20,
         'panel' => 'agency_ecommerce_theme_option_panel',
     )

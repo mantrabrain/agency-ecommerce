@@ -2,7 +2,7 @@
 // Footer Section.
 $wp_customize->add_section('section_woo_cart',
     array(
-        'title' => esc_html__('Cart Options', 'agency-ecommerce'),
+        'title' => esc_html__('WooCommerce Cart', 'agency-ecommerce'),
         'priority' => 100,
         'panel' => 'agency_ecommerce_theme_option_panel',
     )

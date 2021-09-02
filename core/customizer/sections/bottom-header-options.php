@@ -4,7 +4,7 @@
 // Header Section.
 $wp_customize->add_section('section_bottom_header',
 	array(
-		'title' => esc_html__('Bottom Header Options', 'agency-ecommerce'),
+		'title' => esc_html__('Bottom Header', 'agency-ecommerce'),
 		'priority' => 30,
 		'panel' => 'agency_ecommerce_theme_option_panel',
 	)

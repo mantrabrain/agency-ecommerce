@@ -3,7 +3,7 @@
 // Breadcrumb Section.
 $wp_customize->add_section('section_breadcrumb',
     array(
-        'title' => esc_html__('Breadcrumb Options', 'agency-ecommerce'),
+        'title' => esc_html__('Breadcrumb', 'agency-ecommerce'),
         'priority' => 40,
         'panel' => 'agency_ecommerce_theme_option_panel',
     )

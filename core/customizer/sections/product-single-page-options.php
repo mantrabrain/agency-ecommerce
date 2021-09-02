@@ -2,7 +2,7 @@
 // Shop Section.
 $wp_customize->add_section('selection_product_single',
     array(
-        'title' => esc_html__('Product Single Page Options', 'agency-ecommerce'),
+        'title' => esc_html__('Product Single Page', 'agency-ecommerce'),
         'priority' => 80,
         'panel' => 'agency_ecommerce_theme_option_panel',
     )
