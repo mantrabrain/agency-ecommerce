@@ -24,7 +24,7 @@ class Agency_Ecommerce_Customizer_Control_Icon_Picker extends WP_Customize_Contr
 
 		$icon_lists = array(
 			'font_awesome' => array(
-				'title' => esc_html__('Font Awesome', 'yatri'),
+				'title' => esc_html__('Font Awesome', 'agency-ecommerce'),
 				'icons' => agency_ecommerce_font_awesome_icon_list(),//apply_filters("agency_ecommerce_font_awesome_icon_lists", array())
 			)
 		);

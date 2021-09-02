@@ -9,7 +9,7 @@ $default = agency_ecommerce_get_default_theme_options();
 
 // Load custom controls
 require_once trailingslashit(get_template_directory()) . '/core/customizer/controls/custom-controls.php';
-require_once trailingslashit(get_template_directory()) . '/core/customizer/controls/icon-picker/class-mantrabrain-theme-customizer-control-icon-picker.php';
+require_once trailingslashit(get_template_directory()) . '/core/customizer/controls/icon-picker/icon-picker.php';
 
 #============== Theme Option Panel =================
 // Add Theme Options Panel.
