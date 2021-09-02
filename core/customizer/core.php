@@ -80,7 +80,7 @@ if (!function_exists('agency_ecommerce_get_default_theme_options')) :
 		$defaults['show_mid_header_cart'] = true;
 		$defaults['mid_header_cart_icon'] = 'fa fa-shopping-cart';
 		$defaults['show_mid_header_wishlist'] = true;
-		$defaults['mid_header_wishlist_icon'] = 'fa-heart';
+		$defaults['mid_header_wishlist_icon'] = 'fa fa-heart';
 		$defaults['mid_header_site_identity'] = 'title-text';
 		$defaults['show_mid_search'] = true;
 
