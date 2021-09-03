@@ -74,7 +74,8 @@
 					slick.$slides.css('height', slick.$slideTrack.height() + 'px');
 				});*/
 				$('#main-nav').meanmenu({
-					meanScreenWidth: "1050"
+					meanScreenWidth: "1050",
+					meanMenuOpen: '<span></span><span></span><span></span>'
 				});
 				$this.initScrollToTop();
 
@@ -103,7 +104,7 @@
 
 		specialMenuChildToggle: function () {
 			$('body').on('click', '.ae-special-menu-toggle-child', function (e) {
- 				e.stopPropagation();
+				e.stopPropagation();
 				e.preventDefault();
 
 			});
