@@ -252,6 +252,7 @@ module.exports = function (grunt) {
 					'!assets/css/*.map',
 					'!*.gitignore',
 					'!.git',
+					'!.github',
 					'!requirement.txt'
 				],
 				dest: 'agency-ecommerce',
