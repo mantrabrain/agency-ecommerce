@@ -14,7 +14,6 @@
 @import "components/gutenberg";
 @import "components/accessibility";
 
-
 // WooCommerce Styling //
 @import "components/woocommerce";
 @import "components/woocommerce/woo-main";
@@ -27,6 +26,7 @@
 // End of WooCommerce Styling
 // Compatibility //
 @import "components/compatibility/elementor";
+@import "components/compatibility/matrix-quick-view";
 // End of Compatibility //
 @import "components/special-menu";
 @import "components/compatibility";

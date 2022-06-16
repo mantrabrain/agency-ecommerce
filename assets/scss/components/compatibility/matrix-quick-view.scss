@@ -1,0 +1,49 @@
+.woocommerce {
+	a.button.matrix-quick-view-button {
+		display: none;
+		height: 30px;
+		width: 30px;
+		font-size: 0;
+		margin: 0;
+		border: 0;
+		overflow: hidden;
+		position: absolute;
+		top: 50px;
+		right: 13px;
+		border-radius: 0;
+		color: #0188cc;
+		border: none;
+		background: none;
+		font-weight: normal;
+		line-height: 1;
+		background: #ffff;
+
+		&:after {
+			content: "\f06e";
+			display: block;
+			width: 100%;
+			height: 100%;
+			font-size: 15px;
+			font-family: fontAwesome;
+			line-height: 1.8em;
+			text-align: center;
+		}
+
+		&:hover {
+			background: $primary_color;
+			color: $white_color;
+			border-color: #ddd;
+		}
+	}
+
+	li.product.type-product {
+
+		&:hover {
+			a.button.matrix-quick-view-button {
+				display: block;
+			}
+
+		}
+
+	}
+}
