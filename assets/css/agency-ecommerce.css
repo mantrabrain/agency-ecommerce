@@ -6356,7 +6356,7 @@ body.woocommerce-cart.ae-cart-tmpl-1 .cart-collaterals .cross-sells ul.products 
     height: 100%;
     font-size: 15px;
     font-family: fontAwesome;
-    line-height: 1.8em;
+    line-height: 2.1em;
     text-align: center; }
   .woocommerce a.button.matrix-quick-view-button:hover {
     background: #0188cc;
@@ -6364,6 +6364,41 @@ body.woocommerce-cart.ae-cart-tmpl-1 .cart-collaterals .cross-sells ul.products 
     border-color: #ddd; }
 
 .woocommerce li.product.type-product:hover a.button.matrix-quick-view-button {
+  display: block; }
+
+.woocommerce a.button.matrix-wishlist-button {
+  display: none;
+  height: 30px;
+  width: 30px;
+  font-size: 0;
+  margin: 0;
+  border: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 15px;
+  right: 13px;
+  border-radius: 0;
+  color: #0188cc;
+  border: none;
+  background: none;
+  font-weight: normal;
+  line-height: 1;
+  background: #ffff; }
+  .woocommerce a.button.matrix-wishlist-button:after {
+    content: "\f004";
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    font-family: fontAwesome;
+    line-height: 2.1em;
+    text-align: center; }
+  .woocommerce a.button.matrix-wishlist-button:hover, .woocommerce a.button.matrix-wishlist-button.matrix-wishlist-added {
+    background: #0188cc;
+    color: #ffffff;
+    border-color: #ddd; }
+
+.woocommerce li.product.type-product:hover a.button.matrix-wishlist-button {
   display: block; }
 
 .special-sub-menu {
