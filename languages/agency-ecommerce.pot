@@ -1,14 +1,14 @@
-# <!=Copyright (C) 2021 mantrabrain
+# <!=Copyright (C) 2022 mantrabrain
 # This file is distributed under the GNU General Public License v2 or later.=!>
 msgid ""
 msgstr ""
-"Project-Id-Version: Agency Ecommerce 2.0.14\n"
+"Project-Id-Version: Agency Ecommerce 2.0.15\n"
 "Report-Msgid-Bugs-To: mantrabrain@gmail.com\n"
-"POT-Creation-Date: 2021-09-03 07:02:00+00:00\n"
+"POT-Creation-Date: 2022-06-19 09:25:52+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2021-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "X-Generator: grunt-wp-i18n 1.0.3\n"
@@ -979,34 +979,34 @@ msgid "Edit <span class=\"screen-reader-text\">%s</span>"
 msgstr ""
 
 #: core/tgmpa/class-tgm-plugin-activation.php:328
-#: core/tgmpa/tgmpa-agency-ecommerce.php:61
+#: core/tgmpa/tgmpa-agency-ecommerce.php:60
 msgid "Install Required Plugins"
 msgstr ""
 
 #: core/tgmpa/class-tgm-plugin-activation.php:329
-#: core/tgmpa/tgmpa-agency-ecommerce.php:62
+#: core/tgmpa/tgmpa-agency-ecommerce.php:61
 msgid "Install Plugins"
 msgstr ""
 
 #: core/tgmpa/class-tgm-plugin-activation.php:331
-#: core/tgmpa/tgmpa-agency-ecommerce.php:64
+#: core/tgmpa/tgmpa-agency-ecommerce.php:63
 #. translators: %s: plugin name.
 msgid "Installing Plugin: %s"
 msgstr ""
 
 #: core/tgmpa/class-tgm-plugin-activation.php:333
-#: core/tgmpa/tgmpa-agency-ecommerce.php:66
+#: core/tgmpa/tgmpa-agency-ecommerce.php:65
 #. translators: %s: plugin name.
 msgid "Updating Plugin: %s"
 msgstr ""
 
 #: core/tgmpa/class-tgm-plugin-activation.php:334
-#: core/tgmpa/tgmpa-agency-ecommerce.php:67
+#: core/tgmpa/tgmpa-agency-ecommerce.php:66
 msgid "Something went wrong with the plugin API."
 msgstr ""
 
 #: core/tgmpa/class-tgm-plugin-activation.php:371
-#: core/tgmpa/tgmpa-agency-ecommerce.php:104
+#: core/tgmpa/tgmpa-agency-ecommerce.php:103
 #. translators: 1: plugin name(s).
 msgid "Begin installing plugin"
 msgid_plural "Begin installing plugins"
@@ -1014,21 +1014,21 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: core/tgmpa/class-tgm-plugin-activation.php:376
-#: core/tgmpa/tgmpa-agency-ecommerce.php:109
+#: core/tgmpa/tgmpa-agency-ecommerce.php:108
 msgid "Begin updating plugin"
 msgid_plural "Begin updating plugins"
 msgstr[0] ""
 msgstr[1] ""
 
 #: core/tgmpa/class-tgm-plugin-activation.php:381
-#: core/tgmpa/tgmpa-agency-ecommerce.php:114
+#: core/tgmpa/tgmpa-agency-ecommerce.php:113
 msgid "Begin activating plugin"
 msgid_plural "Begin activating plugins"
 msgstr[0] ""
 msgstr[1] ""
 
 #: core/tgmpa/class-tgm-plugin-activation.php:386
-#: core/tgmpa/tgmpa-agency-ecommerce.php:119
+#: core/tgmpa/tgmpa-agency-ecommerce.php:118
 msgid "Return to Required Plugins Installer"
 msgstr ""
 
@@ -1041,24 +1041,24 @@ msgstr ""
 
 #: core/tgmpa/class-tgm-plugin-activation.php:388
 #: core/tgmpa/class-tgm-plugin-activation.php:3223
-#: core/tgmpa/tgmpa-agency-ecommerce.php:120
+#: core/tgmpa/tgmpa-agency-ecommerce.php:119
 msgid "Plugin activated successfully."
 msgstr ""
 
 #: core/tgmpa/class-tgm-plugin-activation.php:389
 #: core/tgmpa/class-tgm-plugin-activation.php:3010
-#: core/tgmpa/tgmpa-agency-ecommerce.php:121
+#: core/tgmpa/tgmpa-agency-ecommerce.php:120
 msgid "The following plugin was activated successfully:"
 msgstr ""
 
 #: core/tgmpa/class-tgm-plugin-activation.php:391
-#: core/tgmpa/tgmpa-agency-ecommerce.php:123
+#: core/tgmpa/tgmpa-agency-ecommerce.php:122
 #. translators: 1: plugin name.
 msgid "No action taken. Plugin %1$s was already active."
 msgstr ""
 
 #: core/tgmpa/class-tgm-plugin-activation.php:393
-#: core/tgmpa/tgmpa-agency-ecommerce.php:125
+#: core/tgmpa/tgmpa-agency-ecommerce.php:124
 #. translators: 1: plugin name.
 msgid ""
 "Plugin not activated. A higher version of %s is needed for this theme. "
@@ -1066,25 +1066,25 @@ msgid ""
 msgstr ""
 
 #: core/tgmpa/class-tgm-plugin-activation.php:395
-#: core/tgmpa/tgmpa-agency-ecommerce.php:127
+#: core/tgmpa/tgmpa-agency-ecommerce.php:126
 #. translators: 1: dashboard link.
 msgid "All plugins installed and activated successfully. %1$s"
 msgstr ""
 
 #: core/tgmpa/class-tgm-plugin-activation.php:396
-#: core/tgmpa/tgmpa-agency-ecommerce.php:128
+#: core/tgmpa/tgmpa-agency-ecommerce.php:127
 msgid "Dismiss this notice"
 msgstr ""
 
 #: core/tgmpa/class-tgm-plugin-activation.php:397
-#: core/tgmpa/tgmpa-agency-ecommerce.php:129
+#: core/tgmpa/tgmpa-agency-ecommerce.php:128
 msgid ""
 "There are one or more required or recommended plugins to install, update or "
 "activate."
 msgstr ""
 
 #: core/tgmpa/class-tgm-plugin-activation.php:398
-#: core/tgmpa/tgmpa-agency-ecommerce.php:130
+#: core/tgmpa/tgmpa-agency-ecommerce.php:129
 msgid "Please contact the administrator of this site for help."
 msgstr ""
 
@@ -1345,37 +1345,37 @@ msgstr ""
 msgid "Installing Plugin %1$s (%2$d/%3$d)"
 msgstr ""
 
-#: core/tgmpa/tgmpa-agency-ecommerce.php:23
+#: core/tgmpa/tgmpa-agency-ecommerce.php:22
 msgid "WooCommerce"
 msgstr ""
 
-#: core/tgmpa/tgmpa-agency-ecommerce.php:27
-msgid "YITH WooCommerce Wishlist"
+#: core/tgmpa/tgmpa-agency-ecommerce.php:26
+msgid "Matrix WooCommerce Wishlist"
 msgstr ""
 
-#: core/tgmpa/tgmpa-agency-ecommerce.php:31
-msgid "YITH WooCommerce Quick View"
+#: core/tgmpa/tgmpa-agency-ecommerce.php:30
+msgid "Matrix WooCommerce Quick View"
 msgstr ""
 
-#: core/tgmpa/tgmpa-agency-ecommerce.php:35
+#: core/tgmpa/tgmpa-agency-ecommerce.php:34
 msgid "Mantrabrain Starter Sites"
 msgstr ""
 
-#: core/tgmpa/tgmpa-agency-ecommerce.php:69
+#: core/tgmpa/tgmpa-agency-ecommerce.php:68
 #. translators: 1: plugin name(s).
 msgid "This theme requires the following plugin: %1$s."
 msgid_plural "This theme requires the following plugins: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
-#: core/tgmpa/tgmpa-agency-ecommerce.php:75
+#: core/tgmpa/tgmpa-agency-ecommerce.php:74
 #. translators: 1: plugin name(s).
 msgid "This theme recommends the following plugin: %1$s."
 msgid_plural "This theme recommends the following plugins: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
-#: core/tgmpa/tgmpa-agency-ecommerce.php:81
+#: core/tgmpa/tgmpa-agency-ecommerce.php:80
 #. translators: 1: plugin name(s).
 msgid ""
 "The following plugin needs to be updated to its latest version to ensure "
@@ -1386,21 +1386,21 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: core/tgmpa/tgmpa-agency-ecommerce.php:87
+#: core/tgmpa/tgmpa-agency-ecommerce.php:86
 #. translators: 1: plugin name(s).
 msgid "There is an update available for: %1$s."
 msgid_plural "There are updates available for the following plugins: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
-#: core/tgmpa/tgmpa-agency-ecommerce.php:93
+#: core/tgmpa/tgmpa-agency-ecommerce.php:92
 #. translators: 1: plugin name(s).
 msgid "The following required plugin is currently inactive: %1$s."
 msgid_plural "The following required plugins are currently inactive: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
-#: core/tgmpa/tgmpa-agency-ecommerce.php:99
+#: core/tgmpa/tgmpa-agency-ecommerce.php:98
 #. translators: 1: plugin name(s).
 msgid "The following recommended plugin is currently inactive: %1$s."
 msgid_plural "The following recommended plugins are currently inactive: %1$s."
