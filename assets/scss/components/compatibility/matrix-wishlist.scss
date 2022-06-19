@@ -1,5 +1,5 @@
 .woocommerce {
-	a.button.matrix-wishlist-button {
+	.button.matrix-wishlist-button {
 		display: none;
 		height: 30px;
 		width: 30px;
@@ -40,7 +40,7 @@
 	li.product.type-product {
 
 		&:hover {
-			a.button.matrix-wishlist-button {
+			.button.matrix-wishlist-button {
 				display: block;
 			}
 
