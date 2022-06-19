@@ -23,11 +23,11 @@ function agency_ecommerce_register_required_plugins()
 			'slug' => 'woocommerce',
 			'required' => false,
 		), array(
-			'name' => esc_html__('Matrix WooCommerce Wishlist', 'agency-ecommerce'),
+			'name' => esc_html__('WooCommerce Wishlist', 'agency-ecommerce'),
 			'slug' => 'matrix-wishlist',
 			'required' => false,
 		), array(
-			'name' => esc_html__('Matrix WooCommerce Quick View', 'agency-ecommerce'),
+			'name' => esc_html__('WooCommerce Quick View', 'agency-ecommerce'),
 			'slug' => 'matrix-quick-view',
 			'required' => false,
 		), array(
