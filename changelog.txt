@@ -1,3 +1,7 @@
+= 2.1 | 2023/12/17 =
+* Fixed  - Array filter issue fixed
+* Fixed - WordPress 6.4 compatibility check
+
 = 2.0.16 | 2022/06/19 =
 * Fixed  - 6.0 Version tested
 * Fixed - Minor issue fixed

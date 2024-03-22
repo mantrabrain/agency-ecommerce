@@ -3,8 +3,8 @@ Contributors: mantrabrain
 Requires at least:  WordPress 4.5
 Tested up to:       WordPress 6.4
 Requires PHP:       5.4
-Version:            2.1
-Stable tag:         2.1
+Version:            2.1.1
+Stable tag:         2.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -83,6 +83,5 @@ Elegant Themes (https://github.com/pprince/etlinefont-bower), [GPLv3](https://ww
 * Other Image
 - Copyright (C) 2019, mantrabrain, GPLv2](https://www.gnu.org/licenses/gpl-2.0.html)
 
-= 2.1 | 2023/12/17 =
-* Fixed  - Array filter issue fixed
-* Fixed - WordPress 6.4 compatibility check
+= 2.1.1 | 2024/03/22 =
+* Fixed - WordPress 6.5 compatibility check
