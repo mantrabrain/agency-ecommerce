@@ -1,3 +1,6 @@
+= 2.1.1 | 2024/03/22 =
+* Fixed - WordPress 6.5 compatibility check
+
 = 2.1 | 2023/12/17 =
 * Fixed  - Array filter issue fixed
 * Fixed - WordPress 6.4 compatibility check

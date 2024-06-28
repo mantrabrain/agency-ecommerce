@@ -1,7 +1,7 @@
 {
   "name": "mantrabrain/agency-ecommerce",
   "description": "WordPress eCommerce Theme",
-  "homepage": "https://mantrabrain.com/downloads/agency-ecommerce-wordpress-woocommerce-theme/",
+  "homepage": "https://mantrabrain.com/themes/agency-ecommerce/",
   "type": "wordpress-theme",
   "license": "GPL-3.0+",
   "require": {

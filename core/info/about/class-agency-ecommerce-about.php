@@ -258,7 +258,7 @@ class Agency_Ecommerce_About
 
 			echo '</li>';
 		}
-		echo '<li><a target="_blank" class="mb-about-top-link" href="https://mantrabrain.com/downloads/agency-ecommerce-wordpress-woocommerce-theme/?ref=agencyecommercepaneltablink" style="font-weight:bold;color:#000;">' . esc_html__('Learn more about Agency Ecommerce theme &#187;', 'agency-ecommerce') . '</a>';
+		echo '<li><a target="_blank" class="mb-about-top-link" href="https://mantrabrain.com/themes/agency-ecommerce/?ref=agencyecommercepaneltablink" style="font-weight:bold;color:#000;">' . esc_html__('Learn more about Agency Ecommerce theme &#187;', 'agency-ecommerce') . '</a>';
 		echo '</li>';
 
 		echo '</ul>';
@@ -742,7 +742,7 @@ class Agency_Ecommerce_About
 			<div class="mb-about-box-top"><span
 					class="dashicons dashicons-admin-plugins"></span> <?php _e('Agency Ecommerce Addons (Premium)', 'agency-ecommerce'); ?>
 				<a class="mb-about-upgrade" target="_blank"
-				   href="https://mantrabrain.com/downloads/agency-ecommerce-addons/?ref=themepanel-upgradenow"><?php _e('Upgrade Now &rarr;', 'agency-ecommerce'); ?></a>
+				   href="https://mantrabrain.com/themes/agency-ecommerce-addons/?ref=themepanel-upgradenow"><?php _e('Upgrade Now &rarr;', 'agency-ecommerce'); ?></a>
 			</div>
 			<div class="mb-about-box-content mb-about-modules">
 				<?php foreach ($modules as $m) { ?>

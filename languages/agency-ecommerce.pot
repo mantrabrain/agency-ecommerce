@@ -1964,8 +1964,7 @@ msgstr ""
 
 #. Theme URI of the plugin/theme
 msgid ""
-"https://mantrabrain.com/downloads/agency-ecommerce-wordpress-woocommerce-"
-"theme/"
+"https://mantrabrain.com/themes/agency-ecommerce/"
 msgstr ""
 
 #. Description of the plugin/theme
@@ -1984,8 +1983,7 @@ msgid ""
 "selling website, different type of toy store, digital product store, "
 "affiliate store and any kind of product selling site. You can check theme "
 "details and demo from here. ( Details:  "
-"https://mantrabrain.com/downloads/agency-ecommerce-wordpress-woocommerce-"
-"theme/ ), ( Demo: https://demo.mantrabrain.com/agency-ecommerce/ )"
+"https://mantrabrain.com/themes/agency-ecommerce/ ), ( Demo: https://demo.mantrabrain.com/agency-ecommerce/ )"
 msgstr ""
 
 #. Author of the plugin/theme

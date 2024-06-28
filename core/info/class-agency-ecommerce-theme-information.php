@@ -23,11 +23,11 @@ if (!class_exists('Agency_Ecommerce_Theme_Information')) {
 
 	class Agency_Ecommerce_Theme_Information
 	{
-		public static $theme_landing_page_link = 'https://mantrabrain.com/downloads/agency-ecommerce-wordpress-woocommerce-theme/';
+		public static $theme_landing_page_link = 'https://mantrabrain.com/themes/agency-ecommerce/';
 
-		public static $premium_landing_page_link = 'https://mantrabrain.com/downloads/agency-ecommerce-addons/';
+		public static $premium_landing_page_link = 'https://mantrabrain.com/themes/agency-ecommerce-addons/';
 
-		public static $support_form_link = 'https://mantrabrain.com/support-forum/';
+		public static $support_form_link = 'https://mantrabrain.com/contact/';
 
 		public static $documentation_link = 'https://docs.mantrabrain.com/agency-ecommerce/';
 
