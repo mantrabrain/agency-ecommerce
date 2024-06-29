@@ -1,14 +1,14 @@
-# <!=Copyright (C) 2023 mantrabrain
+# <!=Copyright (C) 2024 mantrabrain
 # This file is distributed under the GNU General Public License v2 or later.=!>
 msgid ""
 msgstr ""
-"Project-Id-Version: Agency Ecommerce 2.1\n"
+"Project-Id-Version: Agency Ecommerce 2.1.2\n"
 "Report-Msgid-Bugs-To: mantrabrain@gmail.com\n"
-"POT-Creation-Date: 2023-12-17 12:16:55+00:00\n"
+"POT-Creation-Date: 2024-06-29 04:54:17+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2023-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "X-Generator: grunt-wp-i18n 1.0.3\n"
@@ -1963,8 +1963,7 @@ msgid "No widgets found. Please add widgets to Home Page Widget Area."
 msgstr ""
 
 #. Theme URI of the plugin/theme
-msgid ""
-"https://mantrabrain.com/themes/agency-ecommerce/"
+msgid "https://mantrabrain.com/themes/agency-ecommerce/"
 msgstr ""
 
 #. Description of the plugin/theme
@@ -1983,7 +1982,8 @@ msgid ""
 "selling website, different type of toy store, digital product store, "
 "affiliate store and any kind of product selling site. You can check theme "
 "details and demo from here. ( Details:  "
-"https://mantrabrain.com/themes/agency-ecommerce/ ), ( Demo: https://demo.mantrabrain.com/agency-ecommerce/ )"
+"https://mantrabrain.com/themes/agency-ecommerce/ ), ( Demo: "
+"https://demo.mantrabrain.com/agency-ecommerce/ )"
 msgstr ""
 
 #. Author of the plugin/theme
