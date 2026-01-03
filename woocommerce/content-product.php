@@ -13,27 +13,25 @@
  * @see     https://docs.woocommerce.com/document/template-structure/
  * @author  WooThemes
  * @package WooCommerce/Templates
- * @version 4.0.0
+ * @version 9.4.0
  */
 
-if (!defined('ABSPATH')) {
-    exit; // Exit if accessed directly
-}
+defined( 'ABSPATH' ) || exit;
 
 global $product;
 
-// Ensure visibility
-if (empty($product) || !$product->is_visible()) {
-    return;
+// Check if the product is a valid WooCommerce product and ensure its visibility before proceeding.
+if ( ! is_a( $product, WC_Product::class ) || ! $product->is_visible() ) {
+	return;
 }
-$terms_object = get_the_terms($post->ID, 'product_cat');
+$terms_object = get_the_terms( $product->get_id(), 'product_cat' );
 
-$term_ids = wp_list_pluck($terms_object, 'term_id');
+$term_ids = $terms_object ? wp_list_pluck( $terms_object, 'term_id' ) : array();
 
-$product_category_class = count($term_ids) > 0 ? ' ae-cat-id-' . join(' ae-cat-id-', $term_ids) : '';
+$product_category_class = count( $term_ids ) > 0 ? 'ae-cat-id-' . join( ' ae-cat-id-', $term_ids ) : '';
 
 ?>
-<li <?php post_class(); ?> data-id="<?php echo get_the_ID() ?>">
+<li <?php wc_product_class( array( $product_category_class ), $product ); ?> data-id="<?php echo esc_attr( $product->get_id() ); ?>">
     <?php
     if (class_exists('YITH_WCWL')) {
 
@@ -46,7 +44,7 @@ $product_category_class = count($term_ids) > 0 ? ' ae-cat-id-' . join(' ae-cat-i
     }
     ?>
 
-    <div class="ae-woo-block-wrap<?php echo esc_attr($product_category_class); ?>">
+    <div class="ae-woo-block-wrap <?php echo esc_attr( $product_category_class ); ?>">
         <div class="<?php echo esc_attr($product_wrap) ?>">
             <a href="<?php echo esc_url(get_permalink(get_the_ID())); ?>"
                class="ae-product-link"><?php the_title() ?></a>

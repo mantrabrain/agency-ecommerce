@@ -1,10 +1,10 @@
 == Agency Ecommerce ==
 Contributors: mantrabrain
 Requires at least:  WordPress 4.5
-Tested up to:       WordPress 6.5
+Tested up to:       WordPress 6.9
 Requires PHP:       5.4
-Version:            2.1.2
-Stable tag:         2.1.2
+Version:            2.1.3
+Stable tag:         2.1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -83,5 +83,7 @@ Elegant Themes (https://github.com/pprince/etlinefont-bower), [GPLv3](https://ww
 * Other Image
 - Copyright (C) 2019, mantrabrain, GPLv2](https://www.gnu.org/licenses/gpl-2.0.html)
 
-= 2.1.2 | 2024/06/28 =
-* Fixed - URLs issue fixed
+= 2.1.3 | 2026/01/26 =
+* Fixed - Minor issue fixed
+* Update - Font Awesome update
+* Fixed - Minor version compatibility and template outdated issue

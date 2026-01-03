@@ -216,7 +216,7 @@ class Agency_Ecommerce_Top_Header_Hooks
             <?php } ?>
 
             <?php if (!empty($top_email)) { ?>
-                <span class="fax"><i class="fa fa-envelope-o"
+                <span class="fax"><i class="fa fa-envelope"
                                      aria-hidden="true"></i> <?php echo esc_html($top_email); ?></span>
             <?php } ?>
 

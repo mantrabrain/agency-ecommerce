@@ -22,15 +22,8 @@ function agency_ecommerce_register_required_plugins()
 			'name' => esc_html__('WooCommerce', 'agency-ecommerce'),
 			'slug' => 'woocommerce',
 			'required' => false,
-		), array(
-			'name' => esc_html__('WooCommerce Wishlist', 'agency-ecommerce'),
-			'slug' => 'matrix-wishlist',
-			'required' => false,
-		), array(
-			'name' => esc_html__('WooCommerce Quick View', 'agency-ecommerce'),
-			'slug' => 'matrix-quick-view',
-			'required' => false,
-		), array(
+		),
+		array(
 			'name' => esc_html__('Mantrabrain Starter Sites', 'agency-ecommerce'),
 			'slug' => 'mantrabrain-starter-sites',
 			'required' => false,
