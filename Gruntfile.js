@@ -1,7 +1,7 @@
 
 /* jshint node:true */
 module.exports = function (grunt) {
-	const sass = require("node-sass");
+	const sass = require("sass");
 
 	'use strict';
 
@@ -206,7 +206,7 @@ module.exports = function (grunt) {
 			options: {
 				processors: [
 					require('autoprefixer')({
-						browsers: [
+						overrideBrowserslist: [
 							'last 4 versions',
 							'> 0.1%',
 							'ie 8',
