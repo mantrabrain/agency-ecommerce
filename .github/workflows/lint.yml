@@ -1,0 +1,74 @@
+name: Lint
+
+on:
+  push:
+    branches: [master, main]
+  pull_request:
+
+jobs:
+  php-syntax:
+    name: PHP ${{ matrix.php }} syntax
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        # style.css declares a low "Requires PHP", so the theme still has to
+        # parse on old PHP as well as on a current release. php -l also surfaces
+        # compile-time deprecations, which is how the form_single() signature
+        # problem was caught.
+        php: ['5.6', '7.4', '8.4']
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php }}
+          coverage: none
+
+      - name: Check syntax and compile-time deprecations
+        run: |
+          out=$(find . -path ./node_modules -prune -o -name '*.php' -print0 \
+            | xargs -0 -n1 php -l 2>&1 | grep -v '^No syntax errors' || true)
+          if [ -n "$out" ]; then
+            echo "$out"
+            echo "::error::php -l reported problems on PHP ${{ matrix.php }}."
+            exit 1
+          fi
+          echo "Clean on PHP ${{ matrix.php }}."
+
+  version-consistency:
+    name: Version headers agree
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # WordPress.org reads the theme version from style.css, and
+      # AGENCY_ECOMMERCE_THEME_VERSION is derived from it at runtime, so
+      # style.css and readme.txt are the two that have to be kept in step.
+      - name: Compare style.css and readme.txt
+        run: |
+          style=$(sed -n 's/^Version:[[:space:]]*//p' style.css | head -1 | tr -d '\r')
+          rver=$(sed -n 's/^Version:[[:space:]]*//p' readme.txt | head -1 | tr -d '\r')
+          stable=$(sed -n 's/^Stable tag:[[:space:]]*//p' readme.txt | head -1 | tr -d '\r')
+          echo "style.css Version     : $style"
+          echo "readme.txt Version    : $rver"
+          echo "readme.txt Stable tag : $stable"
+          if [ "$style" != "$rver" ] || [ "$style" != "$stable" ]; then
+            echo "::error::Version mismatch - style.css Version, readme.txt Version and Stable tag must all match."
+            exit 1
+          fi
+          echo "All three agree."
+
+      - name: Changelog mentions this version
+        run: |
+          style=$(sed -n 's/^Version:[[:space:]]*//p' style.css | head -1 | tr -d '\r')
+          for f in readme.txt changelog.txt; do
+            if ! grep -q "= *${style} " "$f"; then
+              echo "::error::$f has no changelog entry for ${style}."
+              exit 1
+            fi
+          done
+          echo "Both changelogs mention ${style}."

@@ -1,16 +1,16 @@
 == Agency Ecommerce ==
 Contributors: mantrabrain
-Requires at least:  WordPress 4.5
-Tested up to:       WordPress 6.9
+Requires at least:  4.5
+Tested up to:       7.1
 Requires PHP:       5.4
-Version:            2.1.3
-Stable tag:         2.1.3
+Version:            2.1.4
+Stable tag:         2.1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Agency Ecommerce is a powerful, dynamic and highly customized WordPress multipurpose WooCommerce compatible e-commerce theme. This theme is fully compatible with most popular WordPress ecommerce plugin WooCommerce and it is widget based theme and have many advanced widgets for online store. Sticky sidebars, header navigation, flexible header and footer, flexible sidebar options, WooCommerce cart and checkout template, advance slider widget, WooCommerce product and category widget are main feature of this theme. Besides that this theme is fully mobile responsive and fully translation ready with  a lot of customization options . You can make different type of online store using this theme, for example: fashion store, sport shop, baby store, jewelry store, kitchen online shop, food selling website, different type of toy store, digital product store, affiliate store and any kind of product selling site. You can check theme details and demo from here. ( Details:  hthttps://mantrabrain.com/themes/agency-ecommerce/ ), ( Demo: https://demo.mantrabrain.com/agency-ecommerce/ )
+Agency Ecommerce is a powerful, dynamic and highly customized WordPress multipurpose WooCommerce compatible e-commerce theme. This theme is fully compatible with most popular WordPress ecommerce plugin WooCommerce and it is widget based theme and have many advanced widgets for online store. Sticky sidebars, header navigation, flexible header and footer, flexible sidebar options, WooCommerce cart and checkout template, advance slider widget, WooCommerce product and category widget are main feature of this theme. Besides that this theme is fully mobile responsive and fully translation ready with  a lot of customization options . You can make different type of online store using this theme, for example: fashion store, sport shop, baby store, jewelry store, kitchen online shop, food selling website, different type of toy store, digital product store, affiliate store and any kind of product selling site. You can check theme details and demo from here. ( Details:  https://mantrabrain.com/themes/agency-ecommerce/ ), ( Demo: https://demo.mantrabrain.com/agency-ecommerce/ )
 
 == Installation ==
 
@@ -82,6 +82,15 @@ Elegant Themes (https://github.com/pprince/etlinefont-bower), [GPLv3](https://ww
 
 * Other Image
 - Copyright (C) 2019, mantrabrain, GPLv2](https://www.gnu.org/licenses/gpl-2.0.html)
+
+== Changelog ==
+
+= 2.1.4 | 2026/08/23 =
+* Update - Tested and verified against WordPress 7.1. Every WordPress function the theme calls was cross-checked against the 7.1 codebase; none are deprecated or removed.
+* Fixed - PHP 8 deprecation notice from Agency_Ecommerce_Widget_Base::form_single(), which declared an optional parameter before a required one. PHP raised this when the file was compiled, so it fired on every request on PHP 8.
+* Fixed - Corrected a malformed theme URL in the description.
+* Update - Added the "Requires at least" header to style.css, and corrected the "Requires at least" and "Tested up to" values in readme.txt, which included the word "WordPress" and so were not parsed.
+* Update - The changelog now sits under its own heading; the entries previously ran on from the Images section.
 
 = 2.1.3 | 2026/01/26 =
 * Fixed - Minor issue fixed

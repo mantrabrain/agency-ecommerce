@@ -1,3 +1,14 @@
+= 2.1.4 | 2026/08/23 =
+* Update - WordPress 7.1 compatibility tested and verified
+* Fixed - PHP 8 deprecation notice from an optional parameter declared before a required one in the widget base class
+* Fixed - Malformed theme URL in the description
+* Update - Added the "Requires at least" header to style.css and corrected the readme.txt version headers
+
+= 2.1.3 | 2026/01/26 =
+* Fixed - Minor issue fixed
+* Update - Font Awesome update
+* Fixed - Minor version compatibility and template outdated issue
+
 = 2.1.2 | 2024/06/28 =
 * Fixed - URLs issue fixed
 

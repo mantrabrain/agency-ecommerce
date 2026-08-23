@@ -38,7 +38,15 @@ if (!class_exists('Agency_Ecommerce_Widget_Base')) {
 
         }
 
-        private function form_single($field_key, $field = array(), $instance)
+        /*
+         * $field carried a default while $instance, which follows it, does not.
+         * PHP 8.0 deprecated that shape and emits a notice when the file is
+         * compiled - on every request, not only when the method runs. All four
+         * call sites are inside this class and pass all three arguments, and the
+         * method is private, so PHP was already treating $field as required.
+         * Dropping the default changes nothing at runtime and silences the notice.
+         */
+        private function form_single($field_key, $field, $instance)
         {
             $field_default = array(
                 'name' => '',
